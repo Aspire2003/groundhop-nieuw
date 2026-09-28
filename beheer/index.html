@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Groundhop Beheer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
+<style>
+  :root {
+    --pitch: #1B6E38;
+    --pitch-dark: #145A2D;
+    --chalk: #FFFFFF;
+    --muted: #D2EBD9;
+    --ink: #133F22;
+    --alert: #B23B2E;
+    --border: #E3EFE6;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--pitch);
+    color: var(--chalk);
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+  }
+  h1, h2, h3 { font-family: 'Archivo Black', 'Archivo', system-ui, sans-serif; text-transform: uppercase; margin: 0; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 20px 16px 64px; }
+  header.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
+  header.top h1 { font-size: 22px; }
+  header.top .who { font-size: 12px; color: var(--muted); text-align: right; }
+  button, select { font-family: inherit; font-size: 13px; }
+  button {
+    background: var(--chalk); color: var(--ink); border: none; border-radius: 6px;
+    padding: 10px 14px; font-weight: 600; cursor: pointer; min-height: 40px;
+  }
+  button.ghost { background: transparent; color: var(--chalk); border: 1px solid rgba(255,255,255,0.5); }
+  button.small { min-height: 32px; padding: 6px 10px; font-size: 12px; }
+  button:disabled { opacity: 0.5; cursor: default; }
+  input[type="email"], textarea, select {
+    width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px;
+    font-family: inherit; font-size: 15px; color: var(--ink); background: var(--chalk);
+  }
+  textarea { min-height: 64px; resize: vertical; }
+  .card { background: var(--chalk); color: var(--ink); border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+  .hidden { display: none !important; }
+  .muted { color: var(--muted); }
+  .card .muted { color: #6B8A76; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .stat { background: rgba(255,255,255,0.12); border-radius: 8px; padding: 8px 12px; min-width: 90px; }
+  .stat .n { font-family: 'Archivo Black'; font-size: 20px; display: block; }
+  .stat .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .filters select { width: auto; flex: 1; min-width: 130px; }
+  .group { cursor: pointer; }
+  .group .row1 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .group .title { font-family: 'Archivo', system-ui; font-weight: 700; font-size: 15px; }
+  .group .kind-badge { font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--chalk); background: var(--pitch); border-radius: 4px; padding: 2px 6px; margin-right: 6px; }
+  .group .meta { font-size: 12px; color: #6B8A76; margin-top: 4px; }
+  .empty { text-align: center; padding: 48px 16px; color: var(--muted); }
+  .empty h2 { color: var(--chalk); font-size: 18px; margin-bottom: 8px; }
+  .empty p { font-size: 13px; line-height: 1.5; }
+  .report { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px; }
+  .report:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .report .field { font-size: 13px; margin: 2px 0; }
+  .report .field b { font-weight: 600; }
+  .diff { display: flex; align-items: center; gap: 6px; font-size: 13px; flex-wrap: wrap; }
+  .diff .from { color: #A34A3D; text-decoration: line-through; }
+  .diff .to { color: var(--ink); font-weight: 700; }
+  .status-row { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0 6px; }
+  .status-chip { border: 1px solid var(--border); background: var(--chalk); color: var(--ink); border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer; }
+  .status-chip.active { background: var(--ink); color: var(--chalk); border-color: var(--ink); }
+  .back-link { color: var(--chalk); text-decoration: underline; font-size: 13px; display: inline-block; margin-bottom: 16px; cursor: pointer; }
+  #msg { font-size: 13px; margin-top: 10px; min-height: 18px; }
+  #msg.error { color: #FFD9A0; }
+  .login-card { max-width: 360px; margin: 15vh auto 0; }
+  .login-card p { font-size: 13px; line-height: 1.5; color: #6B8A76; }
+  .login-card form { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+  .tabs button { background: transparent; color: var(--chalk); border: 1px solid rgba(255,255,255,0.5); }
+  .tabs button.active { background: var(--chalk); color: var(--ink); border-color: var(--chalk); }
+  .mapping .title { font-weight: 700; font-size: 15px; }
+  .mapping .kind-badge { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--chalk); background: var(--pitch); border-radius: 4px; padding: 2px 6px; margin-right: 6px; }
+  .mapping .arrow { color: #6B8A76; margin: 0 4px; }
+  .mapping .actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .mapping .actions button { min-height: 44px; }
+  .mapping .actions button.revert { background: var(--chalk); color: var(--alert); border: 1px solid var(--alert); }
+  .mapping .actions button.approve { background: var(--pitch); color: var(--chalk); }
+  .status-badge { font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; border-radius: 4px; padding: 2px 6px; border: 1px solid var(--border); }
+  .status-badge.approved { background: var(--pitch); color: var(--chalk); border-color: var(--pitch); }
+  .status-badge.reverted { color: var(--alert); border-color: var(--alert); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Groundhop Beheer</h1>
+    <div id="who" class="who hidden">
+      <div id="who-email"></div>
+      <button class="ghost small" id="signout-btn">Uitloggen</button>
+    </div>
+  </header>
+
+  <section id="view-login">
+    <div class="card login-card">
+      <h2 style="font-size:18px;">Inloggen</h2>
+      <p>Vul je e-mailadres in. Je krijgt een inloglink -- geen wachtwoord nodig.</p>
+      <form id="login-form">
+        <input type="email" id="login-email" placeholder="jij@voorbeeld.com" required autocomplete="email" />
+        <button type="submit" id="login-submit">Stuur inloglink</button>
+      </form>
+      <div id="msg"></div>
+    </div>
+  </section>
+
+  <section id="view-app" class="hidden">
+    <div class="tabs">
+      <button type="button" class="small active" id="tab-reports">Meldingen</button>
+      <button type="button" class="small" id="tab-mappings">Geleerd</button>
+    </div>
+    <div id="view-list">
+      <div id="stats" class="stat-row"></div>
+      <div class="filters">
+        <select id="filter-status">
+          <option value="open">Open</option>
+          <option value="bezig">Bezig</option>
+          <option value="opgelost">Opgelost</option>
+          <option value="genegeerd">Genegeerd</option>
+          <option value="all">Alle statussen</option>
+        </select>
+        <select id="filter-kind">
+          <option value="all">Alle soorten</option>
+          <option value="correction">Correctie</option>
+          <option value="manual_match">Zelf toegevoegd</option>
+          <option value="search_miss">Niets gevonden</option>
+          <option value="ground_missing">Stadion ontbreekt</option>
+          <option value="import_problem">Import-probleem</option>
+          <option value="error">Foutmelding</option>
+          <option value="feedback">Feedback</option>
+        </select>
+        <button class="ghost small" id="refresh-btn">Vernieuwen</button>
+      </div>
+      <div id="groups"></div>
+      <div id="empty" class="empty hidden">
+        <h2>Nog niets te zien</h2>
+        <p>
+          Zodra een gebruiker iets meldt in de app -- een correctie, een wedstrijd die we misten, een zoekopdracht zonder
+          resultaat of een foutmelding -- verschijnt dat hier, gegroepeerd per probleem. Je kunt dan de status zetten
+          (open / bezig / opgelost / genegeerd) en een notitie achterlaten.
+        </p>
+      </div>
+    </div>
+    <div id="view-detail" class="hidden">
+      <span class="back-link" id="back-btn">&larr; Terug naar overzicht</span>
+      <div id="detail-reports"></div>
+    </div>
+    <div id="view-mappings" class="hidden">
+      <div id="mapping-stats" class="stat-row"></div>
+      <div class="filters">
+        <select id="mapping-status">
+          <option value="pending">Wacht op goedkeuring</option>
+          <option value="approved">Goedgekeurd</option>
+          <option value="reverted">Teruggedraaid</option>
+          <option value="all">Alle statussen</option>
+        </select>
+        <select id="mapping-kind">
+          <option value="all">Alle soorten</option>
+          <option value="ground_alias">Stadionnaam</option>
+          <option value="new_ground">Nieuw stadion</option>
+          <option value="club_alias">Clubnaam</option>
+          <option value="score">Uitslag</option>
+          <option value="match_ground">Stadion van een wedstrijd</option>
+        </select>
+        <button class="ghost small" id="mapping-refresh">Vernieuwen</button>
+      </div>
+      <div id="mappings"></div>
+      <div id="mappings-empty" class="empty hidden">
+        <h2>Nog niets geleerd</h2>
+        <p>
+          Kiest iemand in de app een stadion voor een import-regel die we niet herkenden, of verbetert iemand een
+          uitslag, clubnaam of stadion, dan verschijnt dat hier. Na 3 verschillende toestellen met hetzelfde antwoord
+          wordt het vanzelf goedgekeurd; jij kunt eerder goedkeuren of iets terugdraaien. De nachtelijke
+          ground-finder zet hier ook wat hij vond, met de bron.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
