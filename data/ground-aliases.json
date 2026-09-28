@@ -1,0 +1,84 @@
+{
+  "v": 1,
+  "generated": "2026-09-27",
+  "note": "Former/popular names for a ground we already carry under a different (current/official) name. Each entry points straight at the ground's own id -- never a name substring -- so a search never has to guess between two grounds that happen to share a word (see the app note on 'Achter de Kazerne' below). Consumed by the CSV importer's ground matching (src/data/store.ts); NOT the same list as GROUND_NICKNAMES (fan search-as-you-type + OCR ticket scanning), which is matched by name substring and would be ambiguous for some of these.",
+  "aliases": [
+    {
+      "alias": "achter de kazerne",
+      "groundId": "osm-way-1014038240",
+      "name": "AFAS Stadion",
+      "city": "Mechelen",
+      "source": "https://www.wikidata.org/wiki/Q649755 -- KV Mechelen's ground; \"Achter de Kazerne\" is its pre-sponsorship name. Not added to GROUND_NICKNAMES: a bare \"AFAS Stadion\" substring search also hits AZ's ground in Alkmaar, which sorts first on capacity."
+    },
+    {
+      "alias": "albertpark",
+      "groundId": "osm-way-663133771",
+      "name": "Versluys Arena",
+      "city": "Oostende",
+      "source": "KV Oostende's ground, renamed since \"Albertpark Stadion\"; matched to our own grounds-be.json row by name (Versluys Arena, Oostende)."
+    },
+    {
+      "alias": "albertpark stadion",
+      "groundId": "osm-way-663133771",
+      "name": "Versluys Arena",
+      "city": "Oostende",
+      "source": "Same ground as \"albertpark\" above."
+    },
+    {
+      "alias": "stade velodrome de rocourt",
+      "groundId": "osm-way-1299385724",
+      "name": "Stade de Rocourt",
+      "city": "Liège",
+      "source": "RFC de Liège/RFC Liège's ground, still on the same site; \"Vélodrome de Rocourt\" was its name while it doubled as a cycling track."
+    },
+    {
+      "alias": "velodrome de rocourt",
+      "groundId": "osm-way-1299385724",
+      "name": "Stade de Rocourt",
+      "city": "Liège",
+      "source": "Same ground as \"stade velodrome de rocourt\" above."
+    },
+    {
+      "alias": "stade du pairay",
+      "groundId": "osm-way-154514015",
+      "name": "Stade Hubert Freson",
+      "city": "Seraing",
+      "source": "https://www.wikidata.org/wiki/Q15694367 (Stade du Pairay, RFC Seraing's ground, 50.6004,5.50372) is 22 m from our osm-way-154514015 \"Stade Hubert Freson\" row -- the same stadium under its popular vs. its official/OSM name."
+    },
+    {
+      "alias": "mungersdorfer stadion",
+      "groundId": "osm-way-145246719",
+      "name": "RheinEnergieSTADION",
+      "city": "Köln",
+      "source": "Same Wikidata item (https://www.wikidata.org/wiki/Q151893, inception 1921) as today's RheinEnergieStadion -- treated as one continuously-redeveloped ground, not a move to a different site (judgment call; see historic-grounds.json note for 1. FC Köln)."
+    },
+    {
+      "alias": "heizelstadion",
+      "groundId": "osm-way-253875451",
+      "name": "Stade Roi Baudouin - Koning Boudewijnstadion",
+      "city": "Bruxelles - Brussel",
+      "source": "Belgium's national stadium was called Heizelstadion before the 1985 Heysel disaster; rebuilt on the same site and renamed Koning Boudewijnstadion/Stade Roi Baudouin. Also findable via the bilingual-name-halves matching added alongside this file, since our own row already carries both languages."
+    },
+    {
+      "alias": "thyl gheyselinckstadion",
+      "groundId": "osm-relation-1368410",
+      "name": "Cegeka Arena",
+      "city": "Genk",
+      "source": "KRC Genk's ground grew out of Waterschei THOR's old André Dumontstadion, renamed Thyl Gheyselinckstadion 1990-1999 after a new main stand, later redeveloped again into today's Cegeka Arena -- one site, not a move (judgment call, no Wikidata item for the old name; see https://www.stadiumguide.com/cristalarena/ and https://en.wikipedia.org/wiki/Cegeka_Arena). historic-grounds.json carries no separate spell for KRC Genk for the same reason."
+    },
+    {
+      "alias": "andre dumontstadion",
+      "groundId": "osm-relation-1368410",
+      "name": "Cegeka Arena",
+      "city": "Genk",
+      "source": "Same ground as \"thyl gheyselinckstadion\" above, its earlier name still."
+    },
+    {
+      "alias": "regenboogstadion",
+      "groundId": "osm-way-956537676",
+      "name": "Elindus Arena",
+      "city": "Waregem",
+      "source": "SV Zulte Waregem's ground, renamed from Regenboogstadion (sponsor renames since)."
+    }
+  ]
+}

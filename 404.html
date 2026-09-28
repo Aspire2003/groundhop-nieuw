@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><link rel="manifest" href="/groundhop-nieuw/manifest.webmanifest"><link rel="apple-touch-icon" href="/groundhop-nieuw/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Groundhop"><meta name="theme-color" content="#1B6E38"><script>window.__GH_VERSION='20260928091244'</script><meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport-fit=cover: the app draws under the iPhone notch and home bar and keeps its own
+         content clear of them with the safe-area insets. Pinch zoom stays allowed. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Groundhop (test)</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        /* no white flash around the pitch when the page bounces or a safe area shows */
+        background-color: #1b6e38;
+        /* iOS enlarges text on its own when the phone turns sideways */
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+      /* the app scrolls inside its own lists; the page itself never scrolls or pulls to refresh */
+      body {
+        overflow: hidden;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+      /* iOS Safari: 100% can be taller than what is visible while its toolbars show, which hides
+         the tab bar behind them; dvh follows the toolbars. */
+      @supports (height: 100dvh) {
+        html,
+        body,
+        #root {
+          height: 100dvh;
+        }
+      }
+    </style>
+  <link rel="icon" href="/groundhop-nieuw/favicon.ico"/></head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  <script src="/groundhop-nieuw/_expo/static/js/web/__expo-metro-runtime-ed4c1cfa6193d76fc294130e42bd1916.js" defer></script><script src="/groundhop-nieuw/_expo/static/js/web/__common-c6557da24137ce568c155bacf2ee1371.js" defer></script><script src="/groundhop-nieuw/_expo/static/js/web/entry-da2ca8dfec85ab253d2c25cb3b858c3e.js" defer></script>
+<script>if("serviceWorker" in navigator){addEventListener("load",function(){navigator.serviceWorker.register("/groundhop-nieuw/sw.js",{scope:"/groundhop-nieuw/"})})}</script></body>
+</html>

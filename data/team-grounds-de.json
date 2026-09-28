@@ -1,0 +1,774 @@
+{
+ "v": 1,
+ "generated": "2026-09-26",
+ "teams": {
+  "6": {
+   "name": "Bayer 04 Leverkusen",
+   "groundId": "osm-relation-5403784",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"BayArena\") to wikidata venue \"BayArena\", 3m"
+  },
+  "7": {
+   "name": "Borussia Dortmund",
+   "groundId": "osm-way-17235929",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"SIGNAL IDUNA PARK\") to wikidata venue \"Signal Iduna Park\", 15m"
+  },
+  "9": {
+   "name": "FC Schalke 04",
+   "groundId": "osm-way-147192563",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"VELTINS-Arena\") to wikidata venue \"Veltins-Arena\", 11m"
+  },
+  "16": {
+   "name": "VfB Stuttgart",
+   "groundId": "osm-way-3869991",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"MHPArena\") to wikidata venue \"MHPArena\", 11m"
+  },
+  "23": {
+   "name": "Alemannia Aachen",
+   "groundId": "osm-relation-1755976",
+   "how": "wikidata",
+   "note": "wikidata venue \"Tivoli\" matched via OSM id"
+  },
+  "31": {
+   "name": "SC Paderborn 07",
+   "groundId": "osm-way-175029195",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Home Deluxe Arena\") to wikidata venue \"Home-Deluxe-Arena\", 68m"
+  },
+  "36": {
+   "name": "VfL Osnabrück",
+   "groundId": "osm-way-181867737",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Bremer Brücke\") to wikidata venue \"Bremer Brücke\", 10m"
+  },
+  "40": {
+   "name": "FC Bayern München",
+   "groundId": "osm-relation-18413487",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Allianz Arena\") to wikidata venue \"Allianz-Arena\", 4m"
+  },
+  "54": {
+   "name": "Hertha BSC",
+   "groundId": "osm-way-38862723",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Olympiastadion Berlin\") to wikidata venue \"Olympiastadion Berlin\", 36m"
+  },
+  "55": {
+   "name": "Hannover 96",
+   "groundId": "osm-way-9923195",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Heinz-von-Heiden-Arena\") to wikidata venue \"Heinz-von-Heiden-Arena\", 9m"
+  },
+  "65": {
+   "name": "1. FC Köln",
+   "groundId": "osm-way-145246719",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"RheinEnergieSTADION\") to wikidata venue \"RheinEnergieStadion\", 15m"
+  },
+  "66": {
+   "name": "Erzgebirge Aue",
+   "groundId": "osm-way-1007647345",
+   "how": "name-match",
+   "note": "matched by name similarity to OSM ground \"FC Erzgebirge Aue\" (score 1.00)"
+  },
+  "69": {
+   "name": "FC Carl Zeiss Jena",
+   "groundId": "osm-way-1523965775",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"ad hoc arena\") to wikidata venue \"Ernst-Abbe-Sportfeld\", 29m"
+  },
+  "74": {
+   "name": "Eintracht Braunschweig",
+   "groundId": "osm-way-110564704",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Eintracht-Stadion\") to wikidata venue \"Eintracht-Stadion\", 15m"
+  },
+  "76": {
+   "name": "1. FC Kaiserslautern",
+   "groundId": "osm-way-27880400",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Fritz-Walter-Stadion\") to wikidata venue \"Fritz-Walter-Stadion\", 55m"
+  },
+  "78": {
+   "name": "1. FC Magdeburg",
+   "groundId": "osm-way-28489919",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Avnet Arena\") to wikidata venue \"Avnet Arena\", 51m"
+  },
+  "79": {
+   "name": "1. FC Nürnberg",
+   "groundId": "osm-way-144526202",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Max-Morlock-Stadion\") to wikidata venue \"Max-Morlock-Stadion\", 6m"
+  },
+  "80": {
+   "name": "1. FC Union Berlin",
+   "groundId": "osm-way-43127006",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Stadion An der Alten Försterei\") to wikidata venue \"Stadion An der Alten Försterei\", 29m"
+  },
+  "81": {
+   "name": "1. FSV Mainz 05",
+   "groundId": "osm-way-91231800",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Mewa Arena\") to wikidata venue \"Mewa Arena\", 31m"
+  },
+  "83": {
+   "name": "DSC Arminia Bielefeld",
+   "groundId": "osm-way-19738505",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"SchücoArena\") to wikidata venue \"SchücoArena\", 74m"
+  },
+  "87": {
+   "name": "Borussia Mönchengladbach",
+   "groundId": "osm-way-41910550",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"ista-Borussia-Park\") to wikidata venue \"ista-Borussia-Park\", 6m"
+  },
+  "91": {
+   "name": "Eintracht Frankfurt",
+   "groundId": "osm-way-5117941",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Deutsche Bank Park\") to wikidata venue \"Deutsche Bank Park\", 10m"
+  },
+  "93": {
+   "name": "Energie Cottbus",
+   "groundId": "osm-way-150076813",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"LEAG Energie Stadion\") to wikidata venue \"LEAG Energie Stadion\", 26m"
+  },
+  "95": {
+   "name": "FC Augsburg",
+   "groundId": "osm-way-38532924",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"WWK ARENA\") to wikidata venue \"WWK ARENA\", 23m"
+  },
+  "98": {
+   "name": "FC St. Pauli",
+   "groundId": "osm-way-381109520",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Millerntor-Stadion\") to wikidata venue \"Millerntor-Stadion\", 12m"
+  },
+  "100": {
+   "name": "Hamburger SV",
+   "groundId": "osm-way-19617443",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Volksparkstadion\") to wikidata venue \"Volksparkstadion\", 27m"
+  },
+  "102": {
+   "name": "Hansa Rostock",
+   "groundId": "osm-way-33781737",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Ostseestadion\") to wikidata venue \"Ostseestadion\", 6m"
+  },
+  "104": {
+   "name": "Holstein Kiel",
+   "groundId": "osm-way-53639424",
+   "how": "wikidata",
+   "note": "wikidata venue \"Holstein-Stadion\" matched via OSM id"
+  },
+  "105": {
+   "name": "Karlsruher SC",
+   "groundId": "osm-way-1450885233",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"BBBank Wildpark\") to wikidata venue \"Wildparkstadion\", 4m"
+  },
+  "107": {
+   "name": "MSV Duisburg",
+   "groundId": "osm-relation-1101351",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Schauinsland-Reisen-Arena\") to wikidata venue \"Schauinsland-Reisen-Arena\", 3m"
+  },
+  "109": {
+   "name": "Rot-Weiss Essen",
+   "groundId": "osm-way-610528384",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Stadion an der Hafenstraße\") to wikidata venue \"Stadion an der Hafenstraße\", 28m"
+  },
+  "112": {
+   "name": "SC Freiburg",
+   "groundId": "osm-way-908440531",
+   "how": "manual",
+   "note": "manual override, ground name: \"Europa-Park Stadion\""
+  },
+  "114": {
+   "name": "SC Verl",
+   "groundId": "osm-way-35710101",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Sportclub Arena\") to wikidata venue \"Stadion an der Poststraße\", 72m"
+  },
+  "115": {
+   "name": "SpVgg Greuther Fürth",
+   "groundId": "osm-way-106578003",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Sportpark Ronhof | Thomas Sommer\") to wikidata venue \"Sportpark Ronhof\", 19m"
+  },
+  "118": {
+   "name": "SV Darmstadt 98",
+   "groundId": "osm-way-1176948852",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Merck-Stadion am Böllenfalltor\") to wikidata venue \"Stadion am Böllenfalltor\", 14m"
+  },
+  "125": {
+   "name": "TSV 1860 München",
+   "groundId": "osm-way-23463412",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Städtisches Stadion an der Grünwalder Straße\") to wikidata venue \"Städtisches Stadion an der Grünwalder Straße\", 16m"
+  },
+  "126": {
+   "name": "TSV Havelse",
+   "groundId": "osm-way-9923195",
+   "how": "manual",
+   "note": "manual override, ground name: \"Heinz-von-Heiden-Arena\""
+  },
+  "129": {
+   "name": "VfL Bochum",
+   "groundId": "osm-way-18690902",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Ruhrstadion\") to wikidata venue \"Ruhrstadion\", 15m"
+  },
+  "131": {
+   "name": "VfL Wolfsburg",
+   "groundId": "osm-way-24950693",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Volkswagen Arena\") to wikidata venue \"Volkswagen Arena\", 80m"
+  },
+  "134": {
+   "name": "SV Werder Bremen",
+   "groundId": "osm-way-4290397",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Weserstadion\") to wikidata venue \"Weserstadion\", 15m"
+  },
+  "171": {
+   "name": "FC Ingolstadt 04",
+   "groundId": "osm-way-67237986",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Audi Sportpark\") to wikidata venue \"Audi-Sportpark\", 38m"
+  },
+  "174": {
+   "name": "SV Wehen Wiesbaden",
+   "groundId": "osm-way-201467283",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"BRITA-Arena\") to wikidata venue \"Brita-Arena\", 17m"
+  },
+  "175": {
+   "name": "TSG Hoffenheim",
+   "groundId": "osm-way-29987143",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"SNP Arena\") to wikidata venue \"SNP Arena\", 118m"
+  },
+  "177": {
+   "name": "Dynamo Dresden",
+   "groundId": "osm-way-101383573",
+   "how": "wikidata",
+   "note": "wikidata venue \"Rudolf-Harbig-Stadion\" matched via OSM id"
+  },
+  "181": {
+   "name": "Jahn Regensburg",
+   "groundId": "osm-way-365735150",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Jahnstadion Regensburg\") to wikidata venue \"Jahnstadion Regensburg\", 34m"
+  },
+  "184": {
+   "name": "VfB Stuttgart II",
+   "groundId": "osm-way-14169211",
+   "how": "manual",
+   "note": "manual override, ground name: \"GAZi-Stadion auf der Waldau\""
+  },
+  "185": {
+   "name": "Fortuna Düsseldorf",
+   "groundId": "osm-way-24547706",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Merkur Spiel-Arena\") to wikidata venue \"Merkur Spiel-Arena\", 11m"
+  },
+  "188": {
+   "name": "Preußen Münster",
+   "groundId": "osm-relation-1360363",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Preußenstadion\") to wikidata venue \"Preußenstadion\", 8m"
+  },
+  "198": {
+   "name": "SV 07 Elversberg",
+   "groundId": "osm-way-1154632806",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Ursapharm-Arena\") to wikidata venue \"Waldstadion Kaiserlinde\", 25m"
+  },
+  "199": {
+   "name": "1. FC Heidenheim 1846",
+   "groundId": "osm-way-681162690",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Voith-Arena\") to wikidata venue \"Voith-Arena\", 2m"
+  },
+  "208": {
+   "name": "Hallescher FC",
+   "groundId": "osm-way-130575966",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Leuna-Chemie-Stadion\") to wikidata venue \"Leuna-Chemie-Stadion\", 15m"
+  },
+  "355": {
+   "name": "Atlético Madrid",
+   "groundId": "osm-way-458731140",
+   "how": "wikidata",
+   "note": "wikidata venue \"Estadio Metropolitano\" matched via OSM id"
+  },
+  "356": {
+   "name": "FC Barcelona",
+   "groundId": "osm-way-34607291",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Spotify Camp Nou\") to wikidata venue \"Miniestadi\", 417m"
+  },
+  "364": {
+   "name": "Chelsea FC",
+   "groundId": "osm-way-5986169",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Stamford Bridge\") to wikidata venue \"Stamford Bridge\", 7m"
+  },
+  "370": {
+   "name": "FC Liverpool",
+   "groundId": "osm-way-4830206",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Anfield\") to wikidata venue \"Anfield\", 7m"
+  },
+  "398": {
+   "name": "Würzburger Kickers",
+   "groundId": "osm-way-663167079",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"AKON ARENA\") to wikidata venue \"Flyeralarm Arena\", 4m"
+  },
+  "417": {
+   "name": "1. FC Saarbrücken",
+   "groundId": "osm-way-1177001117",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Ludwigsparkstadion\") to wikidata venue \"Ludwigsparkstadion\", 74m"
+  },
+  "434": {
+   "name": "FC Valencia",
+   "groundId": "osm-way-8082830",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Mestalla\") to wikidata venue \"Campo de Mestalla\", 29m"
+  },
+  "438": {
+   "name": "Aston Villa",
+   "groundId": "osm-way-23136743",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Villa Park\") to wikidata venue \"Villa Park\", 10m"
+  },
+  "440": {
+   "name": "Deportivo A Coruña",
+   "groundId": "osm-way-34237293",
+   "how": "wikidata",
+   "note": "wikidata venue \"Estadio de Abanca Riazor\" matched via OSM id"
+  },
+  "452": {
+   "name": "Tottenham Hotspur FC",
+   "groundId": "osm-way-538300255",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Tottenham Hotspur Stadium\") to wikidata venue \"Tottenham Hotspur Stadium\", 34m"
+  },
+  "529": {
+   "name": "SG Sonnenhof Großaspach",
+   "groundId": "osm-way-372567612",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"WIRmachenDRUCK Arena\") to wikidata venue \"WIRmachenDRUCK Arena\", 8m"
+  },
+  "541": {
+   "name": "Everton FC",
+   "groundId": "osm-way-1367633428",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Hill Dickinson Stadium\") to wikidata venue \"Hill Dickinson Stadium\", 12m"
+  },
+  "549": {
+   "name": "Fulham FC",
+   "groundId": "osm-way-4380344",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Craven Cottage\") to wikidata venue \"Craven Cottage\", 15m"
+  },
+  "553": {
+   "name": "SV Waldhof Mannheim",
+   "groundId": "osm-way-181915119",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Carl-Benz-Stadion\") to wikidata venue \"Carl-Benz-Stadion\", 6m"
+  },
+  "599": {
+   "name": "SV Meppen",
+   "groundId": "osm-way-196582775",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Hänsch-Arena\") to wikidata venue \"Hänsch-Arena\", 11m"
+  },
+  "1071": {
+   "name": "Eintracht Trier",
+   "groundId": "osm-node-267551453",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Moselstadion\") to wikidata venue \"Moselstadion\", 29m"
+  },
+  "1075": {
+   "name": "Newcastle United FC",
+   "groundId": "osm-way-23381655",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"St. James' Park\") to wikidata venue \"St James’ Park\", 17m"
+  },
+  "1133": {
+   "name": "Real Madrid",
+   "groundId": "osm-way-1507411898",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Bernabéu\") to wikidata venue \"Estadio Santiago Bernabéu\", 12m"
+  },
+  "1135": {
+   "name": "Athletic Club",
+   "groundId": "osm-way-59171758",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"San Mames\") to wikidata venue \"Estadio de San Mamés\", 4m"
+  },
+  "1139": {
+   "name": "FC Sevilla",
+   "groundId": "osm-way-22742138",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadio Ramón Sánchez-Pizjuán\") to wikidata venue \"Estadio Ramón Sánchez-Pizjuán\", 23m"
+  },
+  "1141": {
+   "name": "FC Getafe",
+   "groundId": "osm-way-380991629",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Coliseum\") to wikidata venue \"Coliseum (Getafe)\", 29m"
+  },
+  "1142": {
+   "name": "Espanyol Barcelona",
+   "groundId": "osm-way-657699511",
+   "how": "manual",
+   "note": "manual override, ground name: \"RCDE Stadium (Nou Municipal)\""
+  },
+  "1209": {
+   "name": "FC Villareal",
+   "groundId": "osm-way-21875758",
+   "how": "manual",
+   "note": "manual override, ground name: \"Estadio de la Cerámica\""
+  },
+  "1275": {
+   "name": "Real Sociedad",
+   "groundId": "osm-way-1426500083",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadio Municipal de Anoeta\") to wikidata venue \"Estadio Municipal de Anoeta\", 4m"
+  },
+  "1278": {
+   "name": "Racing Santander",
+   "groundId": "osm-relation-11678725",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadio El Sardinero\") to wikidata venue \"Campos de Sport de El Sardinero\", 10m"
+  },
+  "1279": {
+   "name": "CA Osasuna",
+   "groundId": "osm-way-23454955",
+   "how": "manual",
+   "note": "manual override, ground name: \"Estadio El Sadar\""
+  },
+  "1284": {
+   "name": "FC Malaga",
+   "groundId": "osm-way-146539049",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadio La Rosaleda\") to wikidata venue \"Estadio La Rosaleda\", 79m"
+  },
+  "1635": {
+   "name": "RB Leipzig",
+   "groundId": "osm-way-8015060",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Red Bull Arena\") to wikidata venue \"Red Bull Arena\", 20m"
+  },
+  "1718": {
+   "name": "Fortuna Köln",
+   "groundId": "osm-way-27816189",
+   "how": "manual",
+   "note": "manual override, ground name: \"Südstadion\""
+  },
+  "1802": {
+   "name": "Rayo Vallecano",
+   "groundId": "osm-way-339388126",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Campo de Fútbol de Vallecas\") to wikidata venue \"Campo de Fútbol de Vallecas\", 31m"
+  },
+  "1803": {
+   "name": "Levante UD",
+   "groundId": "osm-way-549557293",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadi Ciutat de València\") to wikidata venue \"Estadio Ciudad de Valencia\", 28m"
+  },
+  "1804": {
+   "name": "Real Betis",
+   "groundId": "osm-way-28355046",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadio Benito Villamarín\") to wikidata venue \"Estadio Benito Villamarín\", 11m"
+  },
+  "2175": {
+   "name": "Celta Vigo",
+   "groundId": "osm-relation-2651229",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadio Abanca-Balaídos\") to wikidata venue \"Estadio Abanca Balaídos\", 56m"
+  },
+  "2199": {
+   "name": "Viktoria Köln",
+   "groundId": "osm-way-26490834",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Sportpark Höhenberg\") to wikidata venue \"Sportpark Höhenberg\", 12m"
+  },
+  "2396": {
+   "name": "TSG 1899 Hoffenheim II",
+   "groundId": "osm-way-28482163",
+   "how": "manual",
+   "note": "manual override, ground name: \"Dietmar-Hopp-Stadion\""
+  },
+  "2489": {
+   "name": "Crystal Palace FC",
+   "groundId": "osm-way-704819406",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Selhurst Park\") to wikidata venue \"Selhurst Park\", 29m"
+  },
+  "2499": {
+   "name": "Bahlinger SC",
+   "groundId": "osm-way-107255845",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Bahlinger SC\") to wikidata venue \"Kaiserstuhlstadion\", 9m"
+  },
+  "2533": {
+   "name": "Elche CF",
+   "groundId": "osm-way-79833556",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Estadi Manuel Martínez Valero\") to wikidata venue \"Estadio Manuel Martínez Valero\", 16m"
+  },
+  "2556": {
+   "name": "Manchester United FC",
+   "groundId": "osm-way-99403577",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Old Trafford\") to wikidata venue \"Old Trafford\", 8m"
+  },
+  "2617": {
+   "name": "FC Arsenal",
+   "groundId": "osm-way-25651711",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Emirates Stadium\") to wikidata venue \"Emirates Stadium\", 6m"
+  },
+  "2942": {
+   "name": "AFC Bournemouth",
+   "groundId": "osm-way-612208694",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Vitality Stadium\") to wikidata venue \"Dean Court\", 9m"
+  },
+  "3078": {
+   "name": "1. FC Saarbrücken",
+   "groundId": "osm-way-1177001117",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Ludwigsparkstadion\") to wikidata venue \"Ludwigsparkstadion\", 74m"
+  },
+  "4244": {
+   "name": "Manchester City",
+   "groundId": "osm-way-26329734",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Etihad Stadium\") to wikidata venue \"Etihad Stadium\", 12m"
+  },
+  "4257": {
+   "name": "Deportivo Alaves",
+   "groundId": "osm-way-39962765",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Mendizorrotza\") to wikidata venue \"Estadio de Mendizorroza\", 22m"
+  },
+  "4550": {
+   "name": "Lüneburger SK Hansa",
+   "groundId": null,
+   "how": "none",
+   "note": "no wikidata venue and no name match found"
+  },
+  "4555": {
+   "name": "TSV Schott Mainz",
+   "groundId": null,
+   "how": "none",
+   "note": "Bezirkssportanlage / Otto-Schott-Sportzentrum, Mainz-Mombach - not present in OSM as a discrete ground; auto-build had wrongly matched Mewa Arena (Mainz 05's stadium) via a bad Wikidata P115 link"
+  },
+  "4568": {
+   "name": "SV Westfalia Rhynern",
+   "groundId": "osm-way-28407001",
+   "how": "name-match",
+   "note": "matched by name similarity to OSM ground \"SV Westfalia Rhynern e.V\" (score 1.00)"
+  },
+  "4600": {
+   "name": "VSG Altglienicke Berlin",
+   "groundId": null,
+   "how": "none",
+   "note": "no wikidata venue and no name match found"
+  },
+  "4762": {
+   "name": "SSV Jeddeloh II",
+   "groundId": null,
+   "how": "none",
+   "note": "women's/reserve team - no specific venue found, left unmapped"
+  },
+  "5276": {
+   "name": "Würzburger Kickers",
+   "groundId": "osm-way-663167079",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"AKON ARENA\") to wikidata venue \"Flyeralarm Arena\", 4m"
+  },
+  "5712": {
+   "name": "SC St. Tönis",
+   "groundId": null,
+   "how": "none",
+   "note": "no wikidata venue and no name match found"
+  },
+  "5967": {
+   "name": "Brentford F.C.",
+   "groundId": "osm-way-703196592",
+   "how": "manual",
+   "note": "manual override, ground name: \"Gtech Community Stadium\""
+  },
+  "6062": {
+   "name": "SC Freiburg Frauen",
+   "groundId": "osm-way-116671526",
+   "how": "manual",
+   "note": "manual override, ground name: \"Möslestadion\""
+  },
+  "6063": {
+   "name": "FC Bayern München Frauen",
+   "groundId": "osm-way-318702399",
+   "how": "manual",
+   "note": "manual override, ground name: \"FC Bayern Campus\""
+  },
+  "6064": {
+   "name": "TSG 1899 Hoffenheim Frauen",
+   "groundId": "osm-way-28482163",
+   "how": "manual",
+   "note": "manual override, ground name: \"Dietmar-Hopp-Stadion\""
+  },
+  "6066": {
+   "name": "1. FC Nürnberg Frauen",
+   "groundId": "osm-way-144526202",
+   "how": "manual",
+   "note": "manual override, ground name: \"Max-Morlock-Stadion\""
+  },
+  "6067": {
+   "name": "SV Werder Bremen Frauen",
+   "groundId": "osm-way-232421157",
+   "how": "manual",
+   "note": "manual override, ground name: \"Platz 11\""
+  },
+  "6068": {
+   "name": "1. FC Köln Frauen",
+   "groundId": "osm-way-49930449",
+   "how": "manual",
+   "note": "manual override, ground name: \"Franz-Kremer-Stadion\""
+  },
+  "6069": {
+   "name": "RB Leipzig Frauen",
+   "groundId": null,
+   "how": "none",
+   "note": "Stadion am Cottaweg, Leipzig - not present in OSM as a discrete ground"
+  },
+  "6070": {
+   "name": "VfL Wolfsburg Frauen",
+   "groundId": "osm-way-55575822",
+   "how": "manual",
+   "note": "manual override, ground name: \"VfL-Stadion am Elsterweg\""
+  },
+  "6071": {
+   "name": "Bayer 04 Leverkusen Frauen",
+   "groundId": "osm-way-24383480",
+   "how": "manual",
+   "note": "manual override, ground name: \"Ulrich-Haberland-Stadion\""
+  },
+  "6073": {
+   "name": "Eintracht Frankfurt Frauen",
+   "groundId": "osm-way-663164998",
+   "how": "manual",
+   "note": "manual override, ground name: \"Stadion am Brentanobad\""
+  },
+  "6324": {
+   "name": "Hamburger SV Frauen",
+   "groundId": "osm-way-19617443",
+   "how": "manual",
+   "note": "manual override, ground name: \"Volksparkstadion\""
+  },
+  "6326": {
+   "name": "1. FC Phönix Lübeck",
+   "groundId": "osm-way-656606219",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Stadion Lohmühle\") to wikidata venue \"Stadion an der Lohmühle\", 4m"
+  },
+  "6447": {
+   "name": "1. FC Union Berlin Frauen",
+   "groundId": "osm-way-43127006",
+   "how": "manual",
+   "note": "manual override, ground name: \"Stadion An der Alten Försterei\""
+  },
+  "6905": {
+   "name": "SV Hemelingen",
+   "groundId": null,
+   "how": "none",
+   "note": "no wikidata venue and no name match found"
+  },
+  "6976": {
+   "name": "1. FSV Mainz 05 Frauen",
+   "groundId": "osm-way-1374173989",
+   "how": "manual",
+   "note": "manual override, ground name: \"Bruchwegstadion\""
+  },
+  "6978": {
+   "name": "VfB Stuttgart Frauen",
+   "groundId": "osm-way-14169211",
+   "how": "manual",
+   "note": "manual override, ground name: \"GAZi-Stadion auf der Waldau\""
+  },
+  "7594": {
+   "name": "VfB 1921 Krieschow ",
+   "groundId": null,
+   "how": "none",
+   "note": "no wikidata venue and no name match found"
+  },
+  "7595": {
+   "name": "Hamburg Eimsbütteler BC",
+   "groundId": null,
+   "how": "none",
+   "note": "no wikidata venue and no name match found"
+  },
+  "8790": {
+   "name": "Brighton & Hove Albion",
+   "groundId": "osm-way-28537290",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"American Express Stadium\") to wikidata venue \"Brighton Community Stadium\", 44m"
+  },
+  "8791": {
+   "name": "Hull City",
+   "groundId": "osm-way-219432070",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"MKM Stadium\") to wikidata venue \"MKM Stadium\", 12m"
+  },
+  "8792": {
+   "name": "Leeds United",
+   "groundId": "osm-way-41438140",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Elland Road Stadium\") to wikidata venue \"Elland Road\", 11m"
+  },
+  "8793": {
+   "name": "Nottingham Forest",
+   "groundId": "osm-way-24724754",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"The City Ground\") to wikidata venue \"City Ground\", 14m"
+  },
+  "8794": {
+   "name": "Sunderland",
+   "groundId": "osm-way-33003560",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Stadium of Light\") to wikidata venue \"Stadium of Light\", 6m"
+  },
+  "8795": {
+   "name": "Coventry City",
+   "groundId": "osm-way-619257076",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Stadium Bowl\") to wikidata venue \"Coventry Building Society Arena\", 12m"
+  },
+  "8796": {
+   "name": "Ipswich Town",
+   "groundId": "osm-way-117953386",
+   "how": "wikidata",
+   "note": "nearest OSM ground (\"Portman Road Stadium\") to wikidata venue \"Portman Road\", 8m"
+  }
+ }
+}
