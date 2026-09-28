@@ -1,8 +1,64 @@
 {
   "v": 1,
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "note": "Former/popular names for a ground we already carry under a different (current/official) name. Each entry points straight at the ground's own id -- never a name substring -- so a search never has to guess between two grounds that happen to share a word (see the app note on 'Achter de Kazerne' below). Consumed by the CSV importer's ground matching (src/data/store.ts); NOT the same list as GROUND_NICKNAMES (fan search-as-you-type + OCR ticket scanning), which is matched by name substring and would be ambiguous for some of these.",
   "aliases": [
+    {
+      "alias": "sportpark katteberg",
+      "groundId": "osm-way-224993089",
+      "name": "Belisia SV",
+      "city": "Bilzen",
+      "source": "Owner-confirmed (28 Sep 2026): home ground of SV Belisia and K Bilzerse Waltwilder VV, sharing the pitch -- our own grounds.db already carries it as \"Belisia SV\", Bilzen (50.86097,5.54395). Added after a real account's import placed this exact text near Amsterdam via an unguarded Nominatim geocode."
+    },
+    {
+      "alias": "ksk jeugdcomplex kleinveldje",
+      "groundId": "osm-way-165802116",
+      "name": "KSK Jeugdcomplex Kleinveldje",
+      "city": "Tongeren",
+      "source": "Owner-confirmed (28 Sep 2026), matches our own grounds.db entry by name exactly."
+    },
+    {
+      "alias": "sportcomplex klein veldje",
+      "groundId": "osm-way-165802116",
+      "name": "KSK Jeugdcomplex Kleinveldje",
+      "city": "Tongeren",
+      "source": "Same ground as \"ksk jeugdcomplex kleinveldje\" above -- the spelling a fan's own import used for it."
+    },
+    {
+      "alias": "k. vlijtingen vv",
+      "groundId": "osm-way-50531632",
+      "name": "K. Vlijtingen VV",
+      "city": "Riemst",
+      "source": "Owner-confirmed (28 Sep 2026), matches our own grounds.db entry by name exactly."
+    },
+    {
+      "alias": "sportpark elderenweg terrain 2",
+      "groundId": "osm-way-50531632",
+      "name": "K. Vlijtingen VV",
+      "city": "Riemst",
+      "source": "Same ground as \"k. vlijtingen vv\" above -- the spelling a fan's own import used for it."
+    },
+    {
+      "alias": "eendracht termien",
+      "groundId": "osm-way-25519963",
+      "name": "Eendracht Termien",
+      "city": "Genk",
+      "source": "Owner-confirmed (28 Sep 2026), matches our own grounds.db entry by name exactly."
+    },
+    {
+      "alias": "terrain 't heke",
+      "groundId": "osm-way-25519963",
+      "name": "Eendracht Termien",
+      "city": "Genk",
+      "source": "Same ground as \"eendracht termien\" above -- the spelling a fan's own import used for it."
+    },
+    {
+      "alias": "rene beusenstadion",
+      "groundId": "osm-way-50526035",
+      "name": "Rivo Riemst",
+      "city": "Riemst",
+      "source": "Belgian company register (KBO/BCE, kbopub.economie.fgov.be), enterprise no. 0444385803: the VZW officially named \"RIEMST VOORUIT\" is abbreviated \"RIVO\", registered at Reeckervelt z/n, 3770 Riemst -- the same Riemst \"Op 't Reeck\" sports zone riemst.be lists as Riemst Vooruit's own facility. Our grounds.db already carries a ground named \"Rivo Riemst\" in Riemst; matched to it on that basis, not a direct site visit or club statement."
+    },
     {
       "alias": "achter de kazerne",
       "groundId": "osm-way-1014038240",
@@ -93,6 +149,55 @@
       "name": "Städtisches Stadion an der Grünwalder Straße",
       "city": "München",
       "source": "The short name of the Städtisches Stadion an der Grünwalder Straße, as Wikidata's historic-grounds spells print it: https://en.wikipedia.org/wiki/Grünwalder_Stadion"
+    },
+    {
+      "alias": "gemeentelijk sportstadion maasmechelen",
+      "groundId": "osm-way-1448277696",
+      "name": "Patro Eisden",
+      "city": "Maasmechelen",
+      "source": "Patro Eisden Maasmechelen plays at the Gemeentelijk Sportstadion (Stadion Patro Eisden) in Maasmechelen: https://nl.wikipedia.org/wiki/Patro_Eisden_Maasmechelen"
+    },
+    {
+      "alias": "gemeentelijk sportstadion",
+      "groundId": "osm-way-1448277696",
+      "name": "Patro Eisden",
+      "city": "Maasmechelen",
+      "source": "Futbology writes the ground as 'Gemeentelijk Sportstadion Maasmechelen' (with the dropped M) for Patro Eisden Maasmechelen: https://nl.wikipedia.org/wiki/Patro_Eisden_Maasmechelen"
+    },
+    {
+      "alias": "gemeentelijk parkstadion boom",
+      "groundId": "osm-way-24244376",
+      "name": "K. Rupel Boom F.C",
+      "city": "Boom",
+      "source": "K. Rupel Boom FC plays at the Gemeentelijk Parkstadion in Boom: https://nl.wikipedia.org/wiki/K._Rupel_Boom_FC"
+    },
+    {
+      "alias": "gemeentelijk parkstadion",
+      "groundId": "osm-way-24244376",
+      "name": "K. Rupel Boom F.C",
+      "city": "Boom",
+      "source": "Rupel Boom FC's Gemeentelijk Parkstadion, Boom: https://nl.wikipedia.org/wiki/K._Rupel_Boom_FC"
+    },
+    {
+      "alias": "sportcomplex boorsem",
+      "groundId": "club-boorsem-sport",
+      "name": "K. Boorsem Sport",
+      "city": "Maasmechelen",
+      "source": "Club ground Grotestraat 147a, 3631 Boorsem (club info): https://www.boorsemsport.be/9-clubinfo"
+    },
+    {
+      "alias": "biesenveldweg",
+      "groundId": "club-kmr-biesen",
+      "name": "KMR Biesen",
+      "city": "Bilzen",
+      "source": "KMR Biesen, Biesenveldweg 1, 3742 Bilzen: https://www.kmrbiesen.be/p/contact.html"
+    },
+    {
+      "alias": "terrein eldersbroek",
+      "groundId": "osm-way-29371457",
+      "name": "Victoria V.V",
+      "city": "Tongeren",
+      "source": "KVVV 's Herenelderen complex at Eldersbroek, 's Herenelderen (Tongeren): https://www.kvvv-sherenelderen.be/nl/complex/"
     }
   ]
 }
