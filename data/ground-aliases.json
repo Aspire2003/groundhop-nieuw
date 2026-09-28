@@ -79,6 +79,20 @@
       "name": "Elindus Arena",
       "city": "Waregem",
       "source": "SV Zulte Waregem's ground, renamed from Regenboogstadion (sponsor renames since)."
+    },
+    {
+      "alias": "munich olympic stadium",
+      "groundId": "osm-way-419656920",
+      "name": "Olympiastadion München",
+      "city": "München",
+      "source": "The English name Wikidata's historic-grounds spells use for the Olympiastadion (FC Bayern 1972-2005, TSV 1860 until 2005): https://en.wikipedia.org/wiki/Olympiastadion_(Munich)"
+    },
+    {
+      "alias": "grunwalder stadion",
+      "groundId": "osm-way-23463412",
+      "name": "Städtisches Stadion an der Grünwalder Straße",
+      "city": "München",
+      "source": "The short name of the Städtisches Stadion an der Grünwalder Straße, as Wikidata's historic-grounds spells print it: https://en.wikipedia.org/wiki/Grünwalder_Stadion"
     }
   ]
 }

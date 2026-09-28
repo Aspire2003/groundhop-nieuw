@@ -2611,7 +2611,7 @@
       {
         "name": "Manor Ground",
         "from": 1888,
-        "to": 1913,
+        "to": 1890,
         "city": "London",
         "lat": null,
         "lon": null,
@@ -2623,6 +2623,17 @@
         "name": "Invicta Ground",
         "from": 1890,
         "to": 1893,
+        "city": "London",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Manor Ground",
+        "from": 1893,
+        "to": 1913,
         "city": "London",
         "lat": null,
         "lon": null,
@@ -2741,9 +2752,22 @@
         "kind": "nickname"
       }
     ],
-    "earlier_grounds": [],
+    "earlier_grounds": [
+      {
+        "name": "King's Park",
+        "from": 1899,
+        "to": 1910,
+        "city": "Bournemouth",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/Dean_Court"
+      "https://en.wikipedia.org/wiki/Dean_Court",
+      "https://www.afcb.co.uk/news/2025/april/25/afc-bournemouth-announces-acquisition-of-vitality-stadium/"
     ]
   },
   {
@@ -4231,7 +4255,7 @@
     "club": "Lincoln City",
     "country": "ENG",
     "league": "Championship",
-    "current_name": "LNER Stadium",
+    "current_name": "ProAmpac Stadium",
     "ground_id_hint": {
       "name": "LNER Stadium",
       "city": "Lincoln",
@@ -4249,9 +4273,8 @@
       {
         "name": "LNER Stadium",
         "from": 2019,
-        "to": null,
-        "kind": "sponsor",
-        "unverified": true
+        "to": 2026,
+        "kind": "sponsor"
       },
       {
         "name": "Sincil Bank",
@@ -4259,6 +4282,12 @@
         "to": null,
         "kind": "nickname",
         "unverified": true
+      },
+      {
+        "name": "ProAmpac Stadium",
+        "from": 2026,
+        "to": null,
+        "kind": "sponsor"
       }
     ],
     "earlier_grounds": [
@@ -4275,7 +4304,10 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+      "https://en.wikipedia.org/wiki/Sincil_Bank",
+      "https://staceywest.net/2026/07/07/lincoln-city-strike-significant-10-year-stadium-naming-rights-deal/",
+      "https://fcbusiness.co.uk/news/lincoln-city-secure-10-year-stadium-naming-rights-deal-with-proampac/"
     ],
     "unverified": true
   },
@@ -5175,7 +5207,11 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/BayArena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.bayer04.de/de-de/page/fahrkarte",
+      "https://www.bayer04.de/de-de/page/bayarena/faq-heimspiele",
+      "https://www.bayer04.de/de-de/page/service/vergroessert-den-heimvorteil"
     ]
   },
   {
@@ -5210,13 +5246,6 @@
         "to": null,
         "kind": "sponsor",
         "unverified": true
-      },
-      {
-        "name": "Waldstadion",
-        "from": null,
-        "to": null,
-        "kind": "nickname",
-        "unverified": true
       }
     ],
     "earlier_grounds": [
@@ -5233,7 +5262,11 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/Waldstadion_(Frankfurt)",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+      "https://fans.eintracht.de/fans-fankultur/infos-fuer-gaestefans/deutsche-bank-park/",
+      "https://fans.eintracht.de/fans/infos-fuer-gaestefans/"
     ]
   },
   {
@@ -5252,29 +5285,25 @@
         "name": "Westfalenstadion",
         "from": 1974,
         "to": 2005,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       },
       {
         "name": "Signal Iduna Park",
         "from": 2005,
         "to": null,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
       },
       {
         "name": "BVB Stadion Dortmund",
-        "from": 2005,
-        "to": null,
-        "kind": "official",
-        "unverified": true
-      },
-      {
-        "name": "Westfalenstadion",
         "from": null,
         "to": null,
-        "kind": "nickname",
-        "unverified": true
+        "kind": "official"
+      },
+      {
+        "name": "Gelbe Wand",
+        "from": null,
+        "to": null,
+        "kind": "nickname"
       }
     ],
     "earlier_grounds": [
@@ -5294,15 +5323,20 @@
         "from": 1937,
         "to": 1974,
         "city": "Dortmund",
-        "lat": 51.49,
-        "lon": 7.45,
+        "lat": 51.49281,
+        "lon": 7.45413,
         "status": "standing",
         "ground_id": "osm-way-17236684",
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://de.wikipedia.org/wiki/Signal_Iduna_Park",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://en.wikipedia.org/wiki/Westfalenstadion",
+      "https://www.bvb.de/de/de/signal-iduna-park/stadionbesuch/stadionplan.html",
+      "https://www.bvb.de/de/de/signal-iduna-park/stadionbesuch/anreise.html",
+      "https://www.bayer04.de/de-de/news/fans/faninfos-zum-auswaertsspiel-bei-borussia-dortmund"
     ]
   },
   {
@@ -5327,6 +5361,17 @@
     ],
     "earlier_grounds": [
       {
+        "name": "Dreisamstadion",
+        "from": 1954,
+        "to": 2021,
+        "city": "Freiburg im Breisgau",
+        "lat": 47.98889,
+        "lon": 7.89304,
+        "status": "standing",
+        "ground_id": "osm-relation-1614762",
+        "unverified": true
+      },
+      {
         "name": "Dreisamstadion (badenova-Stadion, Mage Solar Stadion, Schwarzwald-Stadion)",
         "from": 1954,
         "to": 2021,
@@ -5339,14 +5384,17 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/Europa-Park_Stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://en.wikipedia.org/wiki/Dreisamstadion",
+      "https://www.scfreiburg.com/fans/faninfos/fuer-unsere-gaeste/zu-besuch-im-europa-park-stadion/"
     ]
   },
   {
     "club": "1. FSV Mainz 05",
     "country": "DE",
     "league": "Bundesliga",
-    "current_name": "Mewa Arena",
+    "current_name": "MEWA ARENA",
     "ground_id_hint": {
       "name": "Mewa Arena",
       "city": "Mainz",
@@ -5369,7 +5417,7 @@
         "unverified": true
       },
       {
-        "name": "Mewa Arena",
+        "name": "MEWA ARENA",
         "from": 2021,
         "to": null,
         "kind": "sponsor",
@@ -5382,15 +5430,19 @@
         "from": 1929,
         "to": 2011,
         "city": "Mainz",
-        "lat": 50,
-        "lon": 8.25,
+        "lat": null,
+        "lon": null,
         "status": "standing",
         "ground_id": null,
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://www.mainz05.de/mewa-arena-anfahrt",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.mainz05.de/bruchwegstadion",
+      "https://www.mainz05.de/tickets/faq",
+      "https://www.mainz05.de/getContentAsset/6eff595c-00c9-47c5-ab2c-a8805b3a6794/66cc9516-7a55-417b-9548-be5642e94a58/G%C3%A4steinfo_Homepage.pdf"
     ]
   },
   {
@@ -5441,7 +5493,9 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/Red_Bull_Arena_(Leipzig)",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://rbleipzig.com/de/stadion/red-bull-arena/3d-stadionplan"
     ]
   },
   {
@@ -5529,18 +5583,15 @@
         "to": null,
         "kind": "sponsor",
         "unverified": true
-      },
-      {
-        "name": "Neckarstadion",
-        "from": null,
-        "to": null,
-        "kind": "nickname",
-        "unverified": true
       }
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/MHPArena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://shop.vfb.de/en/stadium-plan-arrival-parking",
+      "https://www.mhparena-stuttgart.de/arena/daten-fakten/",
+      "https://www.werder.de/aktuell/news/fankurve/2023/2024/fanhinweise-stuttgart-30112023/"
     ]
   },
   {
@@ -5578,13 +5629,19 @@
         "city": "Mönchengladbach",
         "lat": null,
         "lon": null,
-        "status": "other_use",
+        "status": "demolished",
         "ground_id": null,
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/Borussia-Park",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://de.m.wikipedia.org/wiki/B%C3%B6kelbergstadion",
+      "https://www.borussia.de/news/block-2-wird-zur-saison-2026-27-zum-stehplatzbereich",
+      "https://en.wikipedia.org/wiki/B%C3%B6kelbergstadion",
+      "https://www.vrr.de/tickets-tarife/ticketuebersicht/kombiticket/",
+      "https://www.borussia.de/tickets"
     ]
   },
   {
@@ -5627,15 +5684,17 @@
         "from": 1951,
         "to": 2009,
         "city": "Augsburg",
-        "lat": 48.36,
-        "lon": 10.88,
+        "lat": 48.35527,
+        "lon": 10.87615,
         "status": "standing",
         "ground_id": "osm-way-26039742",
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://www.fcaugsburg.de/page/gaeste-infos-37",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.bayer04.de/de-de/news/fans/auswaertsinfos-zur-partie-in-augsburg"
     ]
   },
   {
@@ -5654,8 +5713,7 @@
         "name": "Stadion An der Alten Försterei",
         "from": 1920,
         "to": null,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       },
       {
         "name": "Alte Försterei",
@@ -5667,7 +5725,12 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/Stadion_An_der_Alten_F%C3%B6rsterei",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.fc-union-berlin.de/de-e/alle-neuigkeiten/die-waldseite-bleibt-ein-stehplatz-gXHX3b",
+      "https://www.fc-union-berlin.de/de/stadion/besucherinfos/information-gaestefans-LKWp",
+      "https://tickets.union-zeughaus.de/unveu/data/text5",
+      "https://www.fc-union-berlin.de/de-e/stadion/infos-fuer-besucher-2h5Y"
     ]
   },
   {
@@ -5717,15 +5780,17 @@
         "from": 1999,
         "to": 2009,
         "city": "Sinsheim",
-        "lat": 49.28,
-        "lon": 8.84,
+        "lat": 49.27832,
+        "lon": 8.84216,
         "status": "standing",
         "ground_id": "osm-way-28482163",
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://www.vrn.de/freizeit/stadion/rhein-neckar-arena/index.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.tsg-hoffenheim.de/tsg/arena/gaestefans"
     ]
   },
   {
@@ -5756,22 +5821,18 @@
       },
       {
         "name": "Stadion Köln",
-        "from": 2002,
-        "to": null,
-        "kind": "official",
-        "unverified": true
-      },
-      {
-        "name": "Müngersdorfer Stadion",
         "from": null,
         "to": null,
-        "kind": "nickname",
+        "kind": "official",
         "unverified": true
       }
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://fc.de/service/stadionerlebnis/heimspiele/anreise-und-stadionbesuch",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.kvb.koeln/abos-und-tickets/alle-tickets/kombiticket.html",
+      "https://fc.de/service/stadionerlebnis/ticketing"
     ]
   },
   {
@@ -5843,7 +5904,10 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/Volksparkstadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.hsv.de/volksparkstadion/anreise/anreise-fuer-gaestefans",
+      "https://sv07elversberg.de/fan-infos-zum-auswaertsspiel-beim-hamburger-sv-28-03-2025/"
     ]
   },
   {
@@ -5871,13 +5935,6 @@
         "to": null,
         "kind": "sponsor",
         "unverified": true
-      },
-      {
-        "name": "Arena AufSchalke",
-        "from": null,
-        "to": null,
-        "kind": "nickname",
-        "unverified": true
       }
     ],
     "earlier_grounds": [
@@ -5886,26 +5943,30 @@
         "from": 1928,
         "to": 1973,
         "city": "Gelsenkirchen",
-        "lat": 51.53,
-        "lon": 7.08,
+        "lat": 51.52979,
+        "lon": 7.07967,
         "status": "standing",
-        "ground_id": "osm-relation-10394987",
-        "unverified": true
+        "ground_id": "osm-relation-10394987"
       },
       {
         "name": "Parkstadion",
         "from": 1973,
         "to": 2001,
         "city": "Gelsenkirchen",
-        "lat": 51.56,
-        "lon": 7.07,
+        "lat": 51.55926,
+        "lon": 7.06758,
         "status": "standing",
-        "ground_id": "osm-way-770742075",
-        "unverified": true
+        "ground_id": "osm-way-770742075"
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://en.wikipedia.org/wiki/Arena_AufSchalke",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://en.wikipedia.org/wiki/Gl%C3%BCckauf-Kampfbahn",
+      "https://schalke04.de/en/the-veltins-arena/the-veltins-arena-2/former-stadiums/parkstadion/",
+      "https://schalke04.de/veltins-arena/tickets/ticket-infos/",
+      "https://en.wikipedia.org/wiki/Parkstadion",
+      "https://www.dfb.de/fileadmin/_dfbdam/186635-Fan_Infos_Gelsenkirchen.pdf"
     ]
   },
   {
@@ -5931,8 +5992,7 @@
         "name": "Ursapharm-Arena an der Kaiserlinde",
         "from": null,
         "to": null,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
       },
       {
         "name": "Kaiserlinde",
@@ -5944,7 +6004,11 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://sv07elversberg.de/ursapharm-arena/daten-fakten/",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://en.wikipedia.org/wiki/Waldstadion_an_der_Kaiserlinde",
+      "https://sv07elversberg.de/infos-fuer-gaestefans/",
+      "https://sv07elversberg.de/fans/sve-heimspiele/"
     ]
   },
   {
@@ -5994,15 +6058,19 @@
         "from": null,
         "to": 2008,
         "city": "Paderborn",
-        "lat": 51.76,
-        "lon": 8.7,
+        "lat": 51.75674,
+        "lon": 8.69998,
         "status": "standing",
         "ground_id": "osm-way-92725677",
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      "https://www.scp07.de/Arena/Home-Deluxe-Arena/Stadionordnung/Stadionordnung.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.scp07.de/Arena/Home-Deluxe-Arena/",
+      "https://www.padersprinter.de/heimspiel-scp/",
+      "https://www.scp07.de/Heimspiel-Info_Profis/"
     ]
   },
   {
@@ -6031,15 +6099,20 @@
         "from": 1947,
         "to": 2002,
         "city": "Wolfsburg",
-        "lat": 52.43,
-        "lon": 10.8,
+        "lat": 52.42542,
+        "lon": 10.79937,
         "status": "standing",
         "ground_id": "osm-way-55575822",
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/VfL-Stadion_am_Elsterweg",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.bayer04.de/de-de/news/fans/die-faninfos-zum-auswaertsspiel-beim-vfl-wolfsburg",
+      "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/fan-und-anreiseinfos-bochum-1",
+      "https://www.wvg.de/netz-plaene/kombiticket"
     ]
   },
   {
@@ -6117,7 +6190,12 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://en.wikipedia.org/wiki/Millerntor-Stadion",
+      "https://www.fcstpauli.com/news/ticket-infos-heimspiel-nuernberg-2627",
+      "https://www.sv98.de/auswaertsinfos-zum-spiel-beim-st-pauli-2/",
+      "https://www.vfl.de/auswaerts-am-millerntor-die-st-pauli-faninfos/"
     ]
   },
   {
@@ -6154,7 +6232,9 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.herthabsc.com/de/fans/spieltag/heimspielservice"
     ]
   },
   {
@@ -6193,14 +6273,18 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/kombitickets-veranstaltungstickets/sv-darmstadt-98",
+      "https://www.sv98.de/orga-hinweise-zum-heimspiel-gegen-bielefeld-2/",
+      "https://www.sv98.de/orga-hinweise-zum-heimspiel-gegen-den-1-fc-kaiserslautern/"
     ]
   },
   {
     "club": "Hannover 96",
     "country": "DE",
     "league": "2. Bundesliga",
-    "current_name": "Heinz-von-Heiden-Arena",
+    "current_name": "Heinz von Heiden Arena",
     "ground_id_hint": {
       "name": "Heinz-von-Heiden-Arena",
       "city": "Hannover",
@@ -6235,13 +6319,6 @@
         "to": null,
         "kind": "sponsor",
         "unverified": true
-      },
-      {
-        "name": "Niedersachsenstadion",
-        "from": null,
-        "to": null,
-        "kind": "nickname",
-        "unverified": true
       }
     ],
     "earlier_grounds": [
@@ -6250,15 +6327,22 @@
         "from": 1922,
         "to": 1959,
         "city": "Hannover",
-        "lat": 52.38,
-        "lon": 9.77,
+        "lat": 52.37667,
+        "lon": 9.7728,
         "status": "standing",
         "ground_id": "osm-way-179158024",
         "unverified": true
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.hannover96.de/akademie/spieltagsinfos/informationen-fuer-gaestefans",
+      "https://www.hannover96.de/aktuelles-termine/news/details/16994-neue-stehplaetze-in-der-nordkurve.html",
+      "https://www.sgf1903.de/news/abseits-des-rasens/auswaertsinfos-hannover",
+      "https://www.sv98.de/fanhinweise-zum-auswaertsspiel-in-hannover/",
+      "https://www.sv98.de/infos-zum-spiel-bei-hannover-96/",
+      "https://www.uestra.de/aktuelles/aktuelle-meldungen/gvh-kombiticket-heimspiele-von-hannover-96/"
     ]
   },
   {
@@ -6297,7 +6381,13 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://en.wikipedia.org/wiki/Wildparkstadion",
+      "https://www.ksc.de/stadion/stadionbesuch/anreise",
+      "https://www.kvv.de/fahrplan/sonderfahrten/ksc-busse.html",
+      "https://www.sv98.de/fanhinweise-zum-ksc-spiel/",
+      "https://www.vbk.info/unternehmen/pressemitteilungen/meldungen/verkehrsbetriebe-karlsruhe-bieten-shuttle-service-zum-bbbank-wildpark-an-1.html"
     ]
   },
   {
@@ -6336,7 +6426,12 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://fck.de/blog/vrn-fck-beschliessen-kombi-ticket/",
+      "https://fck.de/fans/stadionbesuch/",
+      "https://schalke04.de/fanbelange/auswaertsinfo-kaiserslautern-2425/",
+      "https://www.vrn.de/freizeit/stadion/fritz-walter-stadion/index.html"
     ]
   },
   {
@@ -6408,7 +6503,11 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.vfl.de/auswaerts-in-nuernberg-die-faninfos/",
+      "https://www.vfl.de/faninfos-fcn/",
+      "https://www.vgn.de/presse/220720_fcn_kombiticket"
     ]
   },
   {
@@ -6459,7 +6558,12 @@
       }
     ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/Avnet_Arena",
+      "https://1.fc-magdeburg.de/fans/gaestefans",
+      "https://1.fc-magdeburg.de/ticketing/stadion-avnet-arena/stadionplan",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.mvbnet.de/mit-der-mvb-ins-stadion/"
     ]
   },
   {
@@ -6484,7 +6588,14 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/Holstein-Stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.holstein-kiel.de/stadionerlebnis/anreise-und-parken/",
+      "https://www.holstein-kiel.de/stadionerlebnis/ticketinfos/",
+      "https://www.holstein-kiel.de/verein/umstrukturierungen-auf-der-nord-und-osttribuene-des-holstein-stadions/",
+      "https://www.kvg-kiel.de/aktuelles/service/mit-dem-stadion-shuttle-x91-zum-holstein-spiel",
+      "https://www.vfb.de/de/vfb/aktuell/neues/fans/2026/faninfo--holstein-kiel---vfb-2526-dfb/"
     ]
   },
   {
@@ -6501,10 +6612,9 @@
     "names": [
       {
         "name": "Stadion an der Castroper Straße",
-        "from": 1911,
+        "from": null,
         "to": 1979,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       },
       {
         "name": "Ruhrstadion",
@@ -6517,15 +6627,13 @@
         "name": "rewirpowerSTADION",
         "from": 2006,
         "to": 2016,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
       },
       {
         "name": "Vonovia Ruhrstadion",
         "from": 2016,
         "to": null,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
       },
       {
         "name": "Castroper Straße",
@@ -6537,7 +6645,12 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/Ruhrstadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://fck.de/blog/faninfos-bocfck-2526/",
+      "https://schalke04.de/fanbelange/auswaertsinfo-bochum-2526/",
+      "https://www.vfl-bochum.de/de/fans/ticket-infos"
     ]
   },
   {
@@ -6553,30 +6666,53 @@
     "ground_id": "osm-way-106578003",
     "names": [
       {
-        "name": "Sportplatz am Ronhof",
+        "name": "Sportplatz am Ronhofer Weg",
         "from": 1910,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "Sportpark Ronhof",
+        "from": null,
         "to": 1997,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       },
       {
         "name": "Playmobil-Stadion",
         "from": 1997,
         "to": 2010,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
       },
       {
-        "name": "Trolli Arena",
+        "name": "Trolli-Arena",
         "from": 2010,
         "to": 2014,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
       },
       {
         "name": "Stadion am Laubenweg",
         "from": 2014,
-        "to": 2017,
+        "to": 2016,
+        "kind": "official"
+      },
+      {
+        "name": "Sportpark Ronhof Thomas Sommer",
+        "from": 2016,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Ronhof",
+        "from": null,
+        "to": null,
+        "kind": "nickname",
+        "unverified": true
+      },
+      {
+        "name": "Sportplatz am Ronhof",
+        "from": 1910,
+        "to": 1997,
         "kind": "official",
         "unverified": true
       },
@@ -6586,18 +6722,16 @@
         "to": null,
         "kind": "sponsor",
         "unverified": true
-      },
-      {
-        "name": "Ronhof",
-        "from": null,
-        "to": null,
-        "kind": "nickname",
-        "unverified": true
       }
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/Sportpark_Ronhof_Thomas_Sommer",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.sgf1903.de/fans.fanbetreuung.gaesteinfos",
+      "https://www.sgf1903.de/news/abseits-des-rasens/mit-dem-heimspielticket-kostenlos-in-den-ronhof-fahren",
+      "https://www.vgn.de/fuer/stadion-fuerth/"
     ]
   },
   {
@@ -6613,58 +6747,67 @@
     "ground_id": "osm-way-101383573",
     "names": [
       {
-        "name": "Ilgen-Kampfbahn",
+        "name": "Dresdner Kampfbahn",
         "from": 1923,
-        "to": 1951,
-        "kind": "official",
-        "unverified": true
+        "to": 1937,
+        "kind": "official"
+      },
+      {
+        "name": "Ilgen-Kampfbahn",
+        "from": 1937,
+        "to": 1945,
+        "kind": "official"
       },
       {
         "name": "Rudolf-Harbig-Stadion",
         "from": 1951,
         "to": 1971,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       },
       {
         "name": "Dynamo-Stadion",
         "from": 1971,
         "to": 1990,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       },
       {
         "name": "Rudolf-Harbig-Stadion",
         "from": 1990,
         "to": 2010,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       },
       {
-        "name": "glücksgas stadion",
+        "name": "Glücksgas-Stadion",
         "from": 2010,
         "to": 2014,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
+      },
+      {
+        "name": "Stadion Dresden",
+        "from": 2014,
+        "to": 2016,
+        "kind": "official"
       },
       {
         "name": "DDV-Stadion",
-        "from": 2014,
+        "from": 2016,
         "to": 2018,
-        "kind": "sponsor",
-        "unverified": true
+        "kind": "sponsor"
       },
       {
         "name": "Rudolf-Harbig-Stadion",
         "from": 2018,
         "to": null,
-        "kind": "official",
-        "unverified": true
+        "kind": "official"
       }
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/Rudolf-Harbig-Stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.dynamo-dresden.de/fans/allgemeine-informationen-stadionbesuch/",
+      "https://www.dynamo-dresden.de/fans/ticketinfos/tickets/"
     ]
   },
   {
@@ -6735,14 +6878,18 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/Eintracht-Stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.eintracht.com/stadion/stadion-abc/e",
+      "https://www.eintracht.com/tickets/infos-fuer-gaestefans"
     ]
   },
   {
     "club": "VfL Osnabrück",
     "country": "DE",
     "league": "2. Bundesliga",
-    "current_name": "Bremer Brücke",
+    "current_name": "Stadion an der Bremer Brücke",
     "ground_id_hint": {
       "name": "Bremer Brücke",
       "city": "Osnabrück",
@@ -6774,7 +6921,10 @@
     ],
     "earlier_grounds": [],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga"
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.vfl.de/faninfos-aue/",
+      "https://www.vfl.de/tickets"
     ]
   },
   {
@@ -12078,5 +12228,5333 @@
       "https://it.wikipedia.org/wiki/Serie_B_2026-2027"
     ],
     "unverified": true
+  },
+  {
+    "club": "AFC Wimbledon",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Plough Lane",
+    "ground_id_hint": {
+      "name": "Cherry Red Records Stadium",
+      "city": "London",
+      "id": "osm-way-845872683"
+    },
+    "ground_id": "osm-way-845872683",
+    "names": [
+      {
+        "name": "Plough Lane",
+        "from": 2020,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "Cherry Red Records Stadium",
+        "from": 2020,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Kingsmeadow",
+        "from": 2002,
+        "to": 2020,
+        "city": "Kingston upon Thames",
+        "lat": 51.40511,
+        "lon": -0.28196,
+        "status": "standing",
+        "ground_id": "osm-way-256659708"
+      },
+      {
+        "name": "Kiyan Prince Foundation Stadium (Loftus Road)",
+        "from": 2020,
+        "to": 2020,
+        "city": "London (Shepherd's Bush)",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Plough_Lane",
+      "https://en.wikipedia.org/wiki/Kingsmeadow,_Kingston_upon_Thames",
+      "https://www.wikidata.org/wiki/Q48851"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Barnsley",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Oakwell",
+    "ground_id_hint": {
+      "name": "Oakwell Stadium",
+      "city": "Barnsley",
+      "id": "osm-way-68417916"
+    },
+    "ground_id": "osm-way-68417916",
+    "names": [
+      {
+        "name": "Oakwell",
+        "from": 1888,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Oakwell",
+      "https://www.barnsleyfc.co.uk/club/history/through-the-years",
+      "https://en.wikipedia.org/wiki/Barnsley_F.C."
+    ]
+  },
+  {
+    "club": "Blackpool",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Bloomfield Road",
+    "ground_id_hint": {
+      "name": "Bloomfield Road Stadium",
+      "city": "Blackpool",
+      "id": "osm-way-124427534"
+    },
+    "ground_id": "osm-way-124427534",
+    "names": [
+      {
+        "name": "Bloomfield Road",
+        "from": 1899,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bloomfield_Road",
+      "https://en.wikipedia.org/wiki/Raikes_Hall",
+      "https://en.wikipedia.org/wiki/Athletic_Grounds_(Blackpool)",
+      "https://en.wikipedia.org/wiki/Blackpool_F.C."
+    ]
+  },
+  {
+    "club": "Bradford City",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Valley Parade",
+    "ground_id_hint": {
+      "name": "Valley Parade",
+      "city": "Bradford",
+      "id": "osm-way-553222377"
+    },
+    "ground_id": "osm-way-553222377",
+    "names": [
+      {
+        "name": "Valley Parade",
+        "from": 1886,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "Pulse Stadium",
+        "from": 1995,
+        "to": 1999,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Bradford & Bingley Stadium",
+        "from": 2005,
+        "to": 2007,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Intersonic Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Coral Windows Stadium",
+        "from": 2007,
+        "to": 2016,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Northern Commercials Stadium",
+        "from": 2016,
+        "to": 2019,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Utilita Energy Stadium",
+        "from": 2019,
+        "to": 2022,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "University of Bradford Stadium",
+        "from": 2022,
+        "to": 2026,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Mbanq Valley Parade",
+        "from": 2026,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Odsal Stadium",
+        "from": 1985,
+        "to": 1986,
+        "city": "Bradford",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Leeds Road",
+        "from": 1985,
+        "to": 1986,
+        "city": "Huddersfield",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Elland Road",
+        "from": 1985,
+        "to": 1986,
+        "city": "Leeds",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Valley_Parade",
+      "https://www.bradfordcityafc.com/news/2026/july/04/introducing--mbanq-valley-parade/",
+      "https://grecianarchive.exeter.ac.uk/items/show/405"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Bromley",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Hayes Lane",
+    "ground_id_hint": {
+      "name": "Bromley Football Club",
+      "city": "Bromley",
+      "id": "osm-way-28477036"
+    },
+    "ground_id": "osm-way-28477036",
+    "names": [
+      {
+        "name": "Hayes Lane",
+        "from": 1938,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Burton Albion",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Pirelli Stadium",
+    "ground_id_hint": {
+      "name": "Pirelli Stadium",
+      "city": "Burton-on-Trent",
+      "id": "osm-way-24252075"
+    },
+    "ground_id": "osm-way-24252075",
+    "names": [
+      {
+        "name": "Pirelli Stadium",
+        "from": 2005,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Eton Park",
+        "from": 1950,
+        "to": 2005,
+        "city": "Burton upon Trent",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Cambridge United",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Abbey Stadium",
+    "ground_id_hint": {
+      "name": "Cledara Abbey Stadium",
+      "city": "Cambridge",
+      "id": "osm-way-3752661"
+    },
+    "ground_id": "osm-way-3752661",
+    "names": [
+      {
+        "name": "Abbey Stadium",
+        "from": 1932,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "R Costings Abbey Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Cambs Glass Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Cledara Abbey Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Midsummer Common",
+        "from": null,
+        "to": null,
+        "city": "Cambridge",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Stourbridge Common",
+        "from": null,
+        "to": null,
+        "city": "Cambridge",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Doncaster Rovers",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Eco-Power Stadium",
+    "ground_id_hint": {
+      "name": "Eco-Power Stadium",
+      "city": "Doncaster",
+      "id": "osm-way-24414401"
+    },
+    "ground_id": "osm-way-24414401",
+    "names": [
+      {
+        "name": "Keepmoat Stadium",
+        "from": 2007,
+        "to": 2021,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Eco-Power Stadium",
+        "from": 2021,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Intake Ground",
+        "from": null,
+        "to": 1916,
+        "city": "Doncaster",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Belle Vue",
+        "from": 1922,
+        "to": 2007,
+        "city": "Doncaster",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Huddersfield Town",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Kirklees Stadium",
+    "ground_id_hint": {
+      "name": "Accu Stadium",
+      "city": "Huddersfield",
+      "id": "osm-way-217861110"
+    },
+    "ground_id": "osm-way-217861110",
+    "names": [
+      {
+        "name": "Kirklees Stadium",
+        "from": 1994,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Alfred McAlpine Stadium",
+        "from": 1994,
+        "to": 2004,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Galpharm Stadium",
+        "from": 2004,
+        "to": 2012,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "John Smith's Stadium",
+        "from": 2012,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Accu Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Leeds Road",
+        "from": 1908,
+        "to": 1994,
+        "city": "Huddersfield",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Leicester City",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "King Power Stadium",
+    "ground_id_hint": {
+      "name": "King Power Stadium",
+      "city": "Leicester",
+      "id": "osm-way-4426440"
+    },
+    "ground_id": "osm-way-4426440",
+    "names": [
+      {
+        "name": "Walkers Stadium",
+        "from": 2002,
+        "to": 2011,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "King Power Stadium",
+        "from": 2011,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Victoria Park",
+        "from": 1884,
+        "to": 1887,
+        "city": "Leicester",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Filbert Street",
+        "from": 1891,
+        "to": 2002,
+        "city": "Leicester",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Leyton Orient",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Brisbane Road",
+    "ground_id_hint": {
+      "name": "Brisbane Road",
+      "city": "London",
+      "id": "osm-way-10604113"
+    },
+    "ground_id": "osm-way-10604113",
+    "names": [
+      {
+        "name": "Brisbane Road",
+        "from": 1937,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Matchroom Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Breyer Group Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Gaughan Group Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Millfields Road",
+        "from": 1900,
+        "to": 1930,
+        "city": "London (Clapton)",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Lea Bridge Stadium",
+        "from": 1930,
+        "to": 1937,
+        "city": "London (Leyton)",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Luton Town",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Kenilworth Road",
+    "ground_id_hint": {
+      "name": "Kenilworth Road Stadium",
+      "city": "Luton",
+      "id": "osm-way-62330138"
+    },
+    "ground_id": "osm-way-62330138",
+    "names": [
+      {
+        "name": "Kenilworth Road",
+        "from": 1905,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Mansfield Town",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Field Mill",
+    "ground_id_hint": {
+      "name": "Field Mill",
+      "city": "Mansfield",
+      "id": "osm-way-27369292"
+    },
+    "ground_id": "osm-way-27369292",
+    "names": [
+      {
+        "name": "Field Mill",
+        "from": 1919,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "One Call Stadium",
+        "from": 2012,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Milton Keynes Dons",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Stadium MK",
+    "ground_id_hint": {
+      "name": "Stadium MK",
+      "city": "Bletchley",
+      "id": "osm-way-404410358"
+    },
+    "ground_id": "osm-way-404410358",
+    "names": [
+      {
+        "name": "Stadium MK",
+        "from": 2007,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "National Hockey Stadium",
+        "from": 2003,
+        "to": 2007,
+        "city": "Milton Keynes",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Notts County",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Meadow Lane",
+    "ground_id_hint": {
+      "name": "Meadow Lane Stadium",
+      "city": "Nottingham",
+      "id": "osm-way-24724780"
+    },
+    "ground_id": "osm-way-24724780",
+    "names": [
+      {
+        "name": "Meadow Lane",
+        "from": 1910,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Trent Bridge",
+        "from": 1883,
+        "to": 1910,
+        "city": "West Bridgford",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Oxford United",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Kassam Stadium",
+    "ground_id_hint": {
+      "name": "Kassam Stadium",
+      "city": "Oxford",
+      "id": "osm-way-23604325"
+    },
+    "ground_id": "osm-way-23604325",
+    "names": [
+      {
+        "name": "Kassam Stadium",
+        "from": 2001,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Manor Ground",
+        "from": 1925,
+        "to": 2001,
+        "city": "Oxford (Headington)",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Peterborough United",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "London Road",
+    "ground_id_hint": {
+      "name": "Weston Homes Stadium",
+      "city": "Peterborough",
+      "id": "osm-relation-5336987"
+    },
+    "ground_id": "osm-relation-5336987",
+    "names": [
+      {
+        "name": "London Road",
+        "from": 1934,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "ABAX Stadium",
+        "from": 2014,
+        "to": 2019,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Weston Homes Stadium",
+        "from": 2019,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Plymouth Argyle",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Home Park",
+    "ground_id_hint": {
+      "name": "Home Park",
+      "city": "Plymouth",
+      "id": "osm-way-32571113"
+    },
+    "ground_id": "osm-way-32571113",
+    "names": [
+      {
+        "name": "Home Park",
+        "from": 1901,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Reading",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Select Car Leasing Stadium",
+    "ground_id_hint": {
+      "name": "Select Car Leasing Stadium",
+      "city": "Reading",
+      "id": "osm-way-256756004"
+    },
+    "ground_id": "osm-way-256756004",
+    "names": [
+      {
+        "name": "Madejski Stadium",
+        "from": 1998,
+        "to": 2021,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Select Car Leasing Stadium",
+        "from": 2021,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Elm Park",
+        "from": 1896,
+        "to": 1998,
+        "city": "Reading",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Sheffield Wednesday",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Hillsborough",
+    "ground_id_hint": {
+      "name": "Hillsborough Stadium",
+      "city": "Sheffield",
+      "id": "osm-way-23049323"
+    },
+    "ground_id": "osm-way-23049323",
+    "names": [
+      {
+        "name": "Owlerton",
+        "from": 1899,
+        "to": 1914,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Hillsborough",
+        "from": 1914,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Olive Grove",
+        "from": 1887,
+        "to": 1899,
+        "city": "Sheffield",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Bramall Lane",
+        "from": null,
+        "to": 1887,
+        "city": "Sheffield",
+        "lat": 53.37037,
+        "lon": -1.47076,
+        "status": "standing",
+        "ground_id": "osm-way-731980938",
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Stevenage",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Broadhall Way",
+    "ground_id_hint": {
+      "name": "Stevenage Football Club",
+      "city": "Stevenage",
+      "id": "osm-way-51578931"
+    },
+    "ground_id": "osm-way-51578931",
+    "names": [
+      {
+        "name": "Broadhall Way",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Lamex Stadium",
+        "from": 2009,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Stockport County",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Edgeley Park",
+    "ground_id_hint": {
+      "name": "Edgeley Park Stadium",
+      "city": "Stockport",
+      "id": "osm-way-41405722"
+    },
+    "ground_id": "osm-way-41405722",
+    "names": [
+      {
+        "name": "Edgeley Park",
+        "from": 1902,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Wigan Athletic",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Brick Community Stadium",
+    "ground_id_hint": {
+      "name": "The Brick Community Stadium",
+      "city": "Wigan",
+      "id": "osm-way-830867936"
+    },
+    "ground_id": "osm-way-830867936",
+    "names": [
+      {
+        "name": "JJB Stadium",
+        "from": 1999,
+        "to": 2009,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "DW Stadium",
+        "from": 2009,
+        "to": 2024,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Brick Community Stadium",
+        "from": 2024,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Springfield Park",
+        "from": 1932,
+        "to": 1999,
+        "city": "Wigan",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "Wycombe Wanderers",
+    "country": "ENG",
+    "league": "League One",
+    "current_name": "Adams Park",
+    "ground_id_hint": {
+      "name": "Adams Park",
+      "city": "High Wycombe",
+      "id": "osm-way-627438334"
+    },
+    "ground_id": "osm-way-627438334",
+    "names": [
+      {
+        "name": "Adams Park",
+        "from": 1990,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Causeway Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Loakes Park",
+        "from": 1895,
+        "to": 1990,
+        "city": "High Wycombe",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+    ]
+  },
+  {
+    "club": "York City",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "LNER Community Stadium",
+    "ground_id_hint": {
+      "name": "LNER Community Stadium",
+      "city": "York",
+      "id": "osm-way-952291708"
+    },
+    "ground_id": "osm-way-952291708",
+    "names": [
+      {
+        "name": "York Community Stadium",
+        "from": 2021,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "LNER Community Stadium",
+        "from": 2021,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Fulfordgate",
+        "from": 1922,
+        "to": 1932,
+        "city": "York",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null
+      },
+      {
+        "name": "Bootham Crescent",
+        "from": 1932,
+        "to": 2021,
+        "city": "York",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/York_Community_Stadium",
+      "https://en.wikipedia.org/wiki/Fulfordgate",
+      "https://en.wikipedia.org/wiki/Bootham_Crescent",
+      "https://en.wikipedia.org/wiki/York_City_F.C."
+    ]
+  },
+  {
+    "club": "Rochdale",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Crown Oil Arena",
+    "ground_id_hint": {
+      "name": "Crown Oil Arena",
+      "city": "Rochdale",
+      "id": "osm-way-37764621"
+    },
+    "ground_id": "osm-way-37764621",
+    "names": [
+      {
+        "name": "St Clement's Playing Fields",
+        "from": 1878,
+        "to": 1921,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Spotland Stadium",
+        "from": 1921,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Crown Oil Arena",
+        "from": 2016,
+        "to": null,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Spotland",
+        "from": null,
+        "to": null,
+        "kind": "nickname"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Spotland_Stadium",
+      "https://rochdaleafc.co.uk/club-history/",
+      "https://en.wikipedia.org/wiki/Rochdale_A.F.C._(1896)"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Rotherham United",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "AESSEAL New York Stadium",
+    "ground_id_hint": {
+      "name": "AESSEAL New York Stadium",
+      "city": "Rotherham",
+      "id": "osm-way-188840229"
+    },
+    "ground_id": "osm-way-188840229",
+    "names": [
+      {
+        "name": "New York Stadium",
+        "from": 2012,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "AESSEAL New York Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Red House Ground (Masbrough)",
+        "from": null,
+        "to": 1907,
+        "city": "Rotherham",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Millmoor",
+        "from": 1907,
+        "to": 2008,
+        "city": "Rotherham",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Don Valley Stadium",
+        "from": 2008,
+        "to": 2012,
+        "city": "Sheffield",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_York_Stadium",
+      "https://en.wikipedia.org/wiki/Millmoor",
+      "https://en.wikipedia.org/wiki/Don_Valley_Stadium",
+      "https://en.wikipedia.org/wiki/Rotherham_County_F.C.",
+      "https://www.themillers.co.uk/news/2025/may/26/town--county--united-/"
+    ]
+  },
+  {
+    "club": "Port Vale",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Vale Park",
+    "ground_id_hint": {
+      "name": "Vale Park",
+      "city": "Stoke-on-Trent",
+      "id": "osm-way-553506535"
+    },
+    "ground_id": "osm-way-553506535",
+    "names": [
+      {
+        "name": "Vale Park",
+        "from": 1950,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "Wembley of the North",
+        "from": null,
+        "to": null,
+        "kind": "nickname",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Athletic Ground (Cobridge)",
+        "from": 1886,
+        "to": 1913,
+        "city": "Stoke-on-Trent",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null
+      },
+      {
+        "name": "Old Recreation Ground",
+        "from": 1913,
+        "to": 1950,
+        "city": "Hanley",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Vale_Park",
+      "https://en.wikipedia.org/wiki/Athletic_Ground_(Cobridge)",
+      "https://en.wikipedia.org/wiki/Old_Recreation_Ground",
+      "https://en.wikipedia.org/wiki/Port_Vale_F.C.",
+      "https://www.thepotteries.org/another/009.htm"
+    ]
+  },
+  {
+    "club": "Exeter City",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "St James Park",
+    "ground_id_hint": {
+      "name": "St James' Park",
+      "city": "Exeter",
+      "id": "osm-way-967684376"
+    },
+    "ground_id": "osm-way-967684376",
+    "names": [
+      {
+        "name": "St James Park",
+        "from": 1904,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St_James_Park_(Exeter)",
+      "https://grecianarchive.exeter.ac.uk/exhibits/show/history_sjp_hlf/earlyyears",
+      "https://en.wikipedia.org/wiki/Exeter_City_F.C."
+    ]
+  },
+  {
+    "club": "Northampton Town",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Sixfields Stadium",
+    "ground_id_hint": {
+      "name": "Sixfields Stadium",
+      "city": "Northampton",
+      "id": "osm-way-28321988"
+    },
+    "ground_id": "osm-way-28321988",
+    "names": [
+      {
+        "name": "Sixfields Stadium",
+        "from": 1994,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "County Ground (Abington Avenue)",
+        "from": 1897,
+        "to": 1994,
+        "city": "Northampton",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sixfields_Stadium",
+      "https://en.wikipedia.org/wiki/County_Ground,_Northampton"
+    ]
+  },
+  {
+    "club": "Accrington Stanley",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Crown Ground",
+    "ground_id_hint": {
+      "name": "Crown Ground",
+      "city": "Accrington",
+      "id": "osm-way-35155939"
+    },
+    "ground_id": "osm-way-35155939",
+    "names": [
+      {
+        "name": "Crown Ground",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Wham Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Fraser Eagle Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Interlink Express Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Crown_Ground",
+      "https://en.wikipedia.org/wiki/Accrington_Stanley_F.C."
+    ]
+  },
+  {
+    "club": "Barnet",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "The Hive London",
+    "ground_id_hint": {
+      "name": "The Hive Stadium",
+      "city": "Edgware",
+      "id": "osm-way-508227304"
+    },
+    "ground_id": "osm-way-508227304",
+    "names": [
+      {
+        "name": "The Hive",
+        "from": 2013,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "The Hive London",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Underhill",
+        "from": 1907,
+        "to": 2013,
+        "city": "Barnet (London)",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Hive_Stadium",
+      "https://en.wikipedia.org/wiki/Underhill_Stadium",
+      "https://en.wikipedia.org/wiki/Barnet_F.C."
+    ]
+  },
+  {
+    "club": "Bristol Rovers",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Memorial Stadium",
+    "ground_id_hint": {
+      "name": "Memorial Stadium",
+      "city": "Bristol",
+      "id": "osm-way-146461714"
+    },
+    "ground_id": "osm-way-146461714",
+    "names": [
+      {
+        "name": "Memorial Stadium",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Memorial Ground",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "The Mem",
+        "from": null,
+        "to": null,
+        "kind": "nickname",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Eastville Stadium",
+        "from": 1897,
+        "to": 1986,
+        "city": "Bristol",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Twerton Park",
+        "from": 1986,
+        "to": 1996,
+        "city": "Bath",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Memorial_Stadium,_Bristol",
+      "https://en.wikipedia.org/wiki/Eastville_Stadium",
+      "https://en.wikipedia.org/wiki/Twerton_Park",
+      "https://en.wikipedia.org/wiki/Bristol_Rovers_F.C."
+    ]
+  },
+  {
+    "club": "Cheltenham Town",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Whaddon Road",
+    "ground_id_hint": {
+      "name": "Completely-Suzuki Stadium",
+      "city": "Cheltenham",
+      "id": "osm-way-168256330"
+    },
+    "ground_id": "osm-way-168256330",
+    "names": [
+      {
+        "name": "Whaddon Road",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Abbey Business Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "World of Smile Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Jonny-Rocks Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Completely-Suzuki Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Whaddon_Road",
+      "https://en.wikipedia.org/wiki/Cheltenham_Town_F.C."
+    ]
+  },
+  {
+    "club": "Chesterfield",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "SMH Group Stadium",
+    "ground_id_hint": {
+      "name": "SMH Group Stadium",
+      "city": "Chesterfield",
+      "id": "osm-way-133493605"
+    },
+    "ground_id": "osm-way-133493605",
+    "names": [
+      {
+        "name": "B2net Stadium",
+        "from": 2010,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Proact Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Technique Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "SMH Group Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Saltergate",
+        "from": null,
+        "to": 2010,
+        "city": "Chesterfield",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/SMH_Group_Stadium",
+      "https://en.wikipedia.org/wiki/Saltergate",
+      "https://en.wikipedia.org/wiki/Chesterfield_F.C."
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Colchester United",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Colchester Community Stadium",
+    "ground_id_hint": {
+      "name": "JobServe Community Stadium",
+      "city": "Colchester",
+      "id": "osm-way-32688201"
+    },
+    "ground_id": "osm-way-32688201",
+    "names": [
+      {
+        "name": "Colchester Community Stadium",
+        "from": 2008,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Weston Homes Community Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "JobServe Community Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Layer Road",
+        "from": 1937,
+        "to": 2008,
+        "city": "Colchester",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Colchester_Community_Stadium",
+      "https://en.wikipedia.org/wiki/Layer_Road",
+      "https://en.wikipedia.org/wiki/Colchester_United_F.C."
+    ]
+  },
+  {
+    "club": "Crawley Town",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Broadfield Stadium",
+    "ground_id_hint": {
+      "name": "Broadfield Stadium",
+      "city": "Crawley",
+      "id": "osm-relation-13346215"
+    },
+    "ground_id": "osm-relation-13346215",
+    "names": [
+      {
+        "name": "Broadfield Stadium",
+        "from": 1997,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Checkatrade.com Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "People's Pension Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Town Mead",
+        "from": null,
+        "to": 1997,
+        "city": "Crawley",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Broadfield_Stadium",
+      "https://en.wikipedia.org/wiki/Crawley_Town_F.C."
+    ]
+  },
+  {
+    "club": "Crewe Alexandra",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Gresty Road",
+    "ground_id_hint": {
+      "name": "Mornflake Stadium",
+      "city": "Crewe, Cheshire",
+      "id": "osm-way-202305268"
+    },
+    "ground_id": "osm-way-202305268",
+    "names": [
+      {
+        "name": "Gresty Road",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Alexandra Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Mornflake Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gresty_Road",
+      "https://en.wikipedia.org/wiki/Crewe_Alexandra_F.C."
+    ]
+  },
+  {
+    "club": "Fleetwood Town",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Highbury Stadium",
+    "ground_id_hint": {
+      "name": "Highbury Stadium",
+      "city": "Fleetwood",
+      "id": "osm-way-160320378"
+    },
+    "ground_id": "osm-way-160320378",
+    "names": [
+      {
+        "name": "Highbury Stadium",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Highbury_Stadium",
+      "https://en.wikipedia.org/wiki/Fleetwood_Town_F.C."
+    ]
+  },
+  {
+    "club": "Gillingham",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Priestfield Stadium",
+    "ground_id_hint": {
+      "name": "MEMS Priestfield Stadium",
+      "city": "Gillingham",
+      "id": "osm-way-15807803"
+    },
+    "ground_id": "osm-way-15807803",
+    "names": [
+      {
+        "name": "Priestfield Stadium",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "KRBS Priestfield Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "MEMS Priestfield Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Priestfield_Stadium",
+      "https://en.wikipedia.org/wiki/Gillingham_F.C.",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Gillingham_F.C._season"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Grimsby Town",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Blundell Park",
+    "ground_id_hint": {
+      "name": "Blundell Park",
+      "city": "Cleethorpes",
+      "id": "osm-way-217858059"
+    },
+    "ground_id": "osm-way-217858059",
+    "names": [
+      {
+        "name": "Blundell Park",
+        "from": 1899,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blundell_Park",
+      "https://en.wikipedia.org/wiki/Grimsby_Town_F.C."
+    ]
+  },
+  {
+    "club": "Newport County",
+    "country": "WAL",
+    "league": "League Two",
+    "current_name": "Rodney Parade",
+    "ground_id_hint": {
+      "name": "Rodney Parade",
+      "city": "Newport",
+      "id": "osm-way-40476328"
+    },
+    "ground_id": "osm-way-40476328",
+    "names": [
+      {
+        "name": "Rodney Parade",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Somerton Park",
+        "from": 1912,
+        "to": 1989,
+        "city": "Newport",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Newport Stadium (Spytty Park)",
+        "from": 1994,
+        "to": 2012,
+        "city": "Newport",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rodney_Parade",
+      "https://en.wikipedia.org/wiki/Somerton_Park",
+      "https://en.wikipedia.org/wiki/Newport_Stadium",
+      "https://en.wikipedia.org/wiki/Newport_County_A.F.C."
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Oldham Athletic",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Boundary Park",
+    "ground_id_hint": {
+      "name": "Boundary Park",
+      "city": "Oldham",
+      "id": "osm-way-63113573"
+    },
+    "ground_id": "osm-way-63113573",
+    "names": [
+      {
+        "name": "Boundary Park",
+        "from": 1906,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "SportsDirect.com Park",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boundary_Park",
+      "https://en.wikipedia.org/wiki/Oldham_Athletic_A.F.C."
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Salford City",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Moor Lane",
+    "ground_id_hint": {
+      "name": "Moor Lane",
+      "city": "Salford",
+      "id": "osm-way-886134716"
+    },
+    "ground_id": "osm-way-886134716",
+    "names": [
+      {
+        "name": "Moor Lane",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Peninsula Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moor_Lane",
+      "https://en.wikipedia.org/wiki/Salford_City_F.C."
+    ]
+  },
+  {
+    "club": "Shrewsbury Town",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "New Meadow",
+    "ground_id_hint": {
+      "name": "New Meadow",
+      "city": "Shrewsbury",
+      "id": "osm-way-52463324"
+    },
+    "ground_id": "osm-way-52463324",
+    "names": [
+      {
+        "name": "New Meadow",
+        "from": 2007,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "ProStar Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Greenhous Meadow",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Montgomery Waters Meadow",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Croud Meadow",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Gay Meadow",
+        "from": 1910,
+        "to": 2007,
+        "city": "Shrewsbury",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_Meadow",
+      "https://en.wikipedia.org/wiki/Gay_Meadow",
+      "https://en.wikipedia.org/wiki/Shrewsbury_Town_F.C.",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Shrewsbury_Town_F.C._season"
+    ]
+  },
+  {
+    "club": "Swindon Town",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "County Ground",
+    "ground_id_hint": {
+      "name": "The Nigel Eady County Ground",
+      "city": "Swindon",
+      "id": "osm-way-663050383"
+    },
+    "ground_id": "osm-way-663050383",
+    "names": [
+      {
+        "name": "County Ground",
+        "from": 1896,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/County_Ground_(Swindon)",
+      "https://en.wikipedia.org/wiki/Swindon_Town_F.C.",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Swindon_Town_F.C._season"
+    ]
+  },
+  {
+    "club": "Tranmere Rovers",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Prenton Park",
+    "ground_id_hint": {
+      "name": "Prenton Park",
+      "city": "Liverpool",
+      "id": "osm-way-553987585"
+    },
+    "ground_id": "osm-way-553987585",
+    "names": [
+      {
+        "name": "Prenton Park",
+        "from": 1912,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Prenton_Park",
+      "https://en.wikipedia.org/wiki/Tranmere_Rovers_F.C."
+    ]
+  },
+  {
+    "club": "Walsall",
+    "country": "ENG",
+    "league": "League Two",
+    "current_name": "Bescot Stadium",
+    "ground_id_hint": {
+      "name": "Pallet-Track Bescot Stadium",
+      "city": "Walsall",
+      "id": "osm-way-83716777"
+    },
+    "ground_id": "osm-way-83716777",
+    "names": [
+      {
+        "name": "Bescot Stadium",
+        "from": 1990,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Banks's Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Poundland Bescot Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Fellows Park",
+        "from": 1896,
+        "to": 1990,
+        "city": "Walsall",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bescot_Stadium",
+      "https://en.wikipedia.org/wiki/Fellows_Park",
+      "https://en.wikipedia.org/wiki/Walsall_F.C."
+    ]
+  },
+  {
+    "club": "AFC Fylde",
+    "country": "ENG",
+    "league": "National League",
+    "current_name": "Mill Farm",
+    "ground_id_hint": {
+      "name": "Mill Farm",
+      "city": "Preston",
+      "id": "osm-way-812813504"
+    },
+    "ground_id": "osm-way-812813504",
+    "names": [
+      {
+        "name": "Mill Farm",
+        "from": 2016,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Coronation Road",
+        "from": 1988,
+        "to": 2006,
+        "city": "Kirkham",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Kellamergh Park",
+        "from": 2006,
+        "to": 2016,
+        "city": "Warton",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://www.afcfylde.co.uk/club/club-history",
+      "https://afcfylde.co.uk/kellamergh-park/",
+      "https://en.wikipedia.org/wiki/AFC_Fylde"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Aldershot Town",
+    "country": "ENG",
+    "league": "National League",
+    "current_name": "The EBB Stadium at the Recreation Ground",
+    "ground_id_hint": {
+      "name": "The Recreation Ground",
+      "city": "Aldershot",
+      "id": "osm-way-37797469"
+    },
+    "ground_id": "osm-way-37797469",
+    "names": [
+      {
+        "name": "Recreation Ground",
+        "from": 1927,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "EBB Stadium",
+        "from": 2008,
+        "to": 2013,
+        "kind": "sponsor"
+      },
+      {
+        "name": "The Electrical Services Stadium",
+        "from": 2013,
+        "to": 2015,
+        "kind": "sponsor"
+      },
+      {
+        "name": "The EBB Stadium at the Recreation Ground",
+        "from": 2015,
+        "to": null,
+        "kind": "sponsor"
+      },
+      {
+        "name": "The Rec",
+        "from": 1927,
+        "to": null,
+        "kind": "nickname"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.theshots.co.uk/ebb-stadium/",
+      "https://www.getsurrey.co.uk/sport/football/football-news/aldershot-rename-ground-electrical-services-5919512",
+      "https://en.wikipedia.org/wiki/Recreation_Ground_(Aldershot)"
+    ]
+  },
+  {
+    "club": "Altrincham",
+    "country": "ENG",
+    "league": "National League",
+    "current_name": "The J. Davidson Stadium (Moss Lane)",
+    "ground_id_hint": {
+      "name": "Moss Lane",
+      "city": "Altrincham",
+      "id": "osm-way-4313090"
+    },
+    "ground_id": "osm-way-4313090",
+    "names": [
+      {
+        "name": "Moss Lane",
+        "from": 1910,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "J. Davidson Stadium",
+        "from": 2013,
+        "to": null,
+        "kind": "sponsor"
+      },
+      {
+        "name": "The J. Davidson Stadium (Moss Lane)",
+        "from": null,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Pollitt's Field",
+        "from": 1903,
+        "to": 1910,
+        "city": "Altrincham",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moss_Lane",
+      "https://altrinchamfc.com/pages/the-j-davidson-stadium"
+    ]
+  },
+  {
+    "club": "Morecambe",
+    "country": "ENG",
+    "league": "National League North",
+    "current_name": "Mazuma Mobile Stadium",
+    "ground_id_hint": {
+      "name": "Mazuma Stadium",
+      "city": "Morecambe",
+      "id": "osm-way-197725679"
+    },
+    "ground_id": "osm-way-197725679",
+    "names": [
+      {
+        "name": "Globe Arena",
+        "from": 2010,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Mazuma Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Mazuma Mobile Stadium",
+        "from": null,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Woodhill Lane",
+        "from": 1920,
+        "to": 1921,
+        "city": "Morecambe",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Christie Park (originally Roseberry Park)",
+        "from": 1921,
+        "to": 2010,
+        "city": "Morecambe",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mazuma_Mobile_Stadium",
+      "https://en.wikipedia.org/wiki/Christie_Park_(Morecambe)",
+      "https://en.wikipedia.org/wiki/Morecambe_F.C."
+    ]
+  },
+  {
+    "club": "Torquay United",
+    "country": "ENG",
+    "league": "National League South",
+    "current_name": "Plainmoor",
+    "ground_id_hint": {
+      "name": "Plainmoor",
+      "city": "Torquay",
+      "id": "osm-way-34886331"
+    },
+    "ground_id": "osm-way-34886331",
+    "names": [
+      {
+        "name": "Plainmoor",
+        "from": 1921,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Teignmouth Road (farmer's field)",
+        "from": 1899,
+        "to": 1905,
+        "city": "Torquay",
+        "lat": null,
+        "lon": null,
+        "status": "other_use",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Recreation Ground",
+        "from": 1900,
+        "to": 1904,
+        "city": "Torquay",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Cricketfield Road (Torquay Cricket Club)",
+        "from": 1905,
+        "to": 1910,
+        "city": "Torquay",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Torquay_United_F.C.",
+      "https://torquayunited.com/history/",
+      "https://en.wikipedia.org/wiki/Plainmoor"
+    ]
+  },
+  {
+    "club": "FC Bayern München",
+    "country": "DE",
+    "league": "Bundesliga",
+    "current_name": "Allianz Arena",
+    "ground_id_hint": {
+      "name": "Allianz Arena",
+      "city": "München",
+      "id": "osm-relation-18413487"
+    },
+    "ground_id": "osm-relation-18413487",
+    "names": [
+      {
+        "name": "Allianz Arena",
+        "from": 2005,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Fußball Arena München",
+        "from": 2005,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Schlauchboot",
+        "from": null,
+        "to": null,
+        "kind": "nickname",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Städtisches Stadion an der Grünwalder Straße",
+        "from": 1925,
+        "to": 1972,
+        "city": "München",
+        "lat": 48.11098,
+        "lon": 11.57445,
+        "status": "standing",
+        "ground_id": "osm-way-23463412",
+        "unverified": true
+      },
+      {
+        "name": "Olympiastadion München",
+        "from": 1972,
+        "to": 2005,
+        "city": "München",
+        "lat": 48.1731,
+        "lon": 11.54648,
+        "status": "standing",
+        "ground_id": "osm-way-419656920",
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Allianz_Arena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://clubnr12.org/suedkurve/gaestefans",
+      "https://fcbayern.com/de/tickets/info/faq",
+      "https://www.fcaugsburg.de/article/fan-infos-bundesliga-spiel-in-muenchen-18563"
+    ]
+  },
+  {
+    "club": "SV Werder Bremen",
+    "country": "DE",
+    "league": "Bundesliga",
+    "current_name": "Weserstadion",
+    "ground_id_hint": {
+      "name": "Weserstadion",
+      "city": "Bremen",
+      "id": "osm-way-4290397"
+    },
+    "ground_id": "osm-way-4290397",
+    "names": [
+      {
+        "name": "Weserstadion",
+        "from": 1930,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "wohninvest Weserstadion",
+        "from": 2019,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.werder.de/stadionerlebnis/weserstadion/blockuebersicht",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "https://www.werder.de/service/faq",
+      "https://www.werder.de/stadionerlebnis/stadion-platz-11/uebersichteintrittspreise"
+    ]
+  },
+  {
+    "club": "1. FC Heidenheim 1846",
+    "country": "DE",
+    "league": "2. Bundesliga",
+    "current_name": "Voith-Arena",
+    "ground_id_hint": {
+      "name": "Voith-Arena",
+      "city": "Heidenheim an der Brenz",
+      "id": "osm-way-681162690"
+    },
+    "ground_id": "osm-way-681162690",
+    "names": [
+      {
+        "name": "Albstadion",
+        "from": 1972,
+        "to": 2009,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Voith-Arena",
+        "from": 2009,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.fc-heidenheim.de/infos-fuer-gaestefans"
+    ]
+  },
+  {
+    "club": "DSC Arminia Bielefeld",
+    "country": "DE",
+    "league": "2. Bundesliga",
+    "current_name": "SchücoArena",
+    "ground_id_hint": {
+      "name": "SchücoArena",
+      "city": "Bielefeld",
+      "id": "osm-way-19738505"
+    },
+    "ground_id": "osm-way-19738505",
+    "names": [
+      {
+        "name": "Stadion Alm",
+        "from": 1926,
+        "to": 2004,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "SchücoArena",
+        "from": 2004,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Alm",
+        "from": null,
+        "to": null,
+        "kind": "nickname"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://en.wikipedia.org/wiki/Bielefelder_Alm",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.arminia.de/leichte-sprache/tickets-preise",
+      "https://www.mobiel.de/freizeit/arminia-heimspiele/"
+    ]
+  },
+  {
+    "club": "FC Energie Cottbus",
+    "country": "DE",
+    "league": "2. Bundesliga",
+    "current_name": "LEAG Energie Stadion",
+    "ground_id_hint": {
+      "name": "LEAG Energie Stadion",
+      "city": "Cottbus",
+      "id": "osm-way-150076813"
+    },
+    "ground_id": "osm-way-150076813",
+    "names": [
+      {
+        "name": "Stadion der Freundschaft",
+        "from": 1930,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "LEAG Energie Stadion",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bundesliga.com/en/2bundesliga/news/second-division-stadiums-2026-27-st-pauli-berlin-kaiserslautern-38005",
+      "https://www.fcenergie.de/leag-energie-stadion.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_2._Bundesliga",
+      "https://www.fcenergie.de/infos-fuer-gaestefans.html",
+      "https://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-energie-cottbus-2627"
+    ]
+  },
+  {
+    "club": "Alemannia Aachen",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Tivoli",
+    "ground_id_hint": {
+      "name": "Tivoli",
+      "city": "Aachen",
+      "id": "osm-relation-1755976"
+    },
+    "ground_id": "osm-relation-1755976",
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Alter Tivoli",
+        "from": null,
+        "to": 2009,
+        "city": "Aachen",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://de.wikipedia.org/wiki/Alter_Tivoli",
+      "https://avv.de/de/aktuelles/neuigkeiten/alemannia-eintrittskarten-gelten-in-der-staedteregion-am-spieltag-als-fahrkarte",
+      "https://www.alemannia-aachen.de/tivoli/tickets/",
+      "https://www.fc-erzgebirge.de/neues/2025/zu-gast-auf-dem-aachener-tivoli"
+    ]
+  },
+  {
+    "club": "MSV Duisburg",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Schauinsland-Reisen-Arena",
+    "ground_id_hint": {
+      "name": "Schauinsland-Reisen-Arena",
+      "city": "Duisburg",
+      "id": "osm-relation-1101351"
+    },
+    "ground_id": "osm-relation-1101351",
+    "names": [
+      {
+        "name": "MSV-Arena",
+        "from": 2004,
+        "to": 2010,
+        "kind": "official"
+      },
+      {
+        "name": "Schauinsland-Reisen-Arena",
+        "from": 2010,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Wedaustadion",
+        "from": null,
+        "to": 2003,
+        "city": "Duisburg",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Schauinsland-Reisen-Arena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/MSV-Arena",
+      "https://www.dvg-duisburg.de/abos-tickets/ticket/msv-kombiticket",
+      "https://www.msv-duisburg.de/aktuelles/tickets/tageskarten/",
+      "https://www.vfl.de/faninfos-duisburg/"
+    ]
+  },
+  {
+    "club": "Rot-Weiss Essen",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Stadion an der Hafenstraße",
+    "ground_id_hint": {
+      "name": "Stadion an der Hafenstraße",
+      "city": "Essen",
+      "id": "osm-way-610528384"
+    },
+    "ground_id": "osm-way-610528384",
+    "names": [
+      {
+        "name": "Stadion Essen",
+        "from": 2012,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Georg-Melches-Stadion",
+        "from": null,
+        "to": 2012,
+        "city": "Essen",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://de.wikipedia.org/wiki/Stadion_Essen",
+      "https://en.wikipedia.org/wiki/Georg-Melches-Stadion",
+      "https://www.rot-weiss-essen.de/fans/eintrittskarten/tageskarten/"
+    ]
+  },
+  {
+    "club": "FC Hansa Rostock",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Ostseestadion",
+    "ground_id_hint": {
+      "name": "Ostseestadion",
+      "city": "Rostock",
+      "id": "osm-way-33781737"
+    },
+    "ground_id": "osm-way-33781737",
+    "names": [
+      {
+        "name": "DKB-Arena",
+        "from": 2007,
+        "to": 2015,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/FC_Hansa_Rostock",
+      "https://www.fch.de/verein/stadion/tickets/faq-ticketing.html",
+      "https://www.svs1916.de/fileadmin/redakteurupload/03_Saison/Saison_24_25/Auswaertsinfos/2024_25/Essen/Auswaertsinfo_Rostock_2024-25.pdf"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "TSV Havelse",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Heinz von Heiden Arena",
+    "ground_id_hint": {
+      "name": "Heinz-von-Heiden-Arena",
+      "city": "Hannover",
+      "id": "osm-way-9923195"
+    },
+    "ground_id": "osm-way-9923195",
+    "names": [
+      {
+        "name": "Niedersachsenstadion",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Eilenriedestadion",
+        "from": 2025,
+        "to": 2026,
+        "city": "Hannover",
+        "lat": 52.37667,
+        "lon": 9.7728,
+        "status": "standing",
+        "ground_id": "osm-way-179158024"
+      },
+      {
+        "name": "Wilhelm-Langrehr-Stadion",
+        "from": null,
+        "to": 2025,
+        "city": "Garbsen",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://www.dfb.de/news/tsv-havelse-startet-in-der-heinz-von-heiden-arena-in-die-neue-saison",
+      "https://datencenter.dfb.de/competitions/3-liga/seasons/2026-2027/teams/tsv-havelse?datacenter_name=datencenter%3Fhistorize_title%3D3.+Liga+2026%2F27%2C+1.+Spieltag&historize_url=",
+      "https://en.wikipedia.org/wiki/Niedersachsenstadion",
+      "https://en.wikipedia.org/wiki/2025%E2%80%9326_TSV_Havelse_season",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_TSV_Havelse_season",
+      "https://tsv-havelse.de/heimspiel-gegen-hansa-rostock-in-der-heinz-von-heiden-arena/"
+    ]
+  },
+  {
+    "club": "TSG Hoffenheim II",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Dietmar-Hopp-Stadion",
+    "ground_id_hint": {
+      "name": "Dietmar-Hopp-Stadion",
+      "city": "Sinsheim",
+      "id": "osm-way-28482163"
+    },
+    "ground_id": "osm-way-28482163",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dietmar-Hopp-Stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://www.tsg-hoffenheim.de/teams/u23/gaestefans"
+    ]
+  },
+  {
+    "club": "FC Ingolstadt 04",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Audi Sportpark",
+    "ground_id_hint": {
+      "name": "Audi Sportpark",
+      "city": "Ingolstadt",
+      "id": "osm-way-67237986"
+    },
+    "ground_id": "osm-way-67237986",
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Tuja-Stadion (ESV-Stadion)",
+        "from": 2004,
+        "to": 2010,
+        "city": "Ingolstadt",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Audi_Sportpark",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/Tuja-Stadion",
+      "https://www.fcingolstadt.de/fan/gaeste/",
+      "https://www.fcingolstadt.de/fileadmin/documents/fan/Infoblatt_Gaestefan.pdf"
+    ]
+  },
+  {
+    "club": "SV Waldhof Mannheim",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Carl-Benz-Stadion",
+    "ground_id_hint": {
+      "name": "Carl-Benz-Stadion",
+      "city": "Mannheim",
+      "id": "osm-way-181915119"
+    },
+    "ground_id": "osm-way-181915119",
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Stadion am Alsenweg (now Seppl-Herberger-Stadion)",
+        "from": 1924,
+        "to": 1993,
+        "city": "Mannheim",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carl-Benz-Stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/Seppl-Herberger-Stadion",
+      "https://svw07.de/stadion/",
+      "https://www.vfl.de/news/faninfos-svw25",
+      "https://www.vrn.de/freizeit/stadion/carl-benz-stadion/index.html"
+    ]
+  },
+  {
+    "club": "1. FC Saarbrücken",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Ludwigsparkstadion",
+    "ground_id_hint": {
+      "name": "Ludwigsparkstadion",
+      "city": "Saarbrücken",
+      "id": "osm-way-1177001117"
+    },
+    "ground_id": "osm-way-1177001117",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ludwigsparkstadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://www.ludwigsparkstadion.de/stadioninfos",
+      "https://www.msv-duisburg.de/fileadmin/content/user_upload/Fans/Ausw%C3%A4rtsinfos/Euer_Gastspiel_in_Saarbr%C3%BCcken_2021_-_v.5.pdf"
+    ]
+  },
+  {
+    "club": "VfB Stuttgart II",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "WIRmachenDRUCK Arena",
+    "ground_id_hint": {
+      "name": "WIRmachenDRUCK Arena",
+      "city": "Aspach",
+      "id": "osm-way-372567612"
+    },
+    "ground_id": "osm-way-372567612",
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Robert-Schlienz-Stadion",
+        "from": null,
+        "to": null,
+        "city": "Stuttgart",
+        "lat": 48.79047,
+        "lon": 9.23385,
+        "status": "standing",
+        "ground_id": "osm-way-314819881"
+      }
+    ],
+    "sources": [
+      "https://www.vfb.de/de/1893/junge-wilde/heimspielstaetten/heimspielstaetten/wirmachendruck-arena/",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/VfB_Stuttgart_II",
+      "https://www.msv-duisburg.de/fileadmin/content/user_upload/Infos_aus_Stuttgart.pdf"
+    ]
+  },
+  {
+    "club": "SC Verl",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Sportclub Arena",
+    "ground_id_hint": {
+      "name": "Sportclub Arena",
+      "city": "Verl",
+      "id": "osm-way-35710101"
+    },
+    "ground_id": "osm-way-35710101",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sportclub_Arena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://www.svmeppen.de/post/spieltagsinfos-ausw%C3%A4rtsspiel-in-verl"
+    ]
+  },
+  {
+    "club": "FC Viktoria Köln",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Sportpark Höhenberg",
+    "ground_id_hint": {
+      "name": "Sportpark Höhenberg",
+      "city": "Köln",
+      "id": "osm-way-26490834"
+    },
+    "ground_id": "osm-way-26490834",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sportpark_H%C3%B6henberg",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://viktoria1904.de/auswaerts/",
+      "https://viktoria1904.de/stadion/stadionplan-anreise/",
+      "https://www.viktoria1904.de/kein-highlight-mehr-verpassen/tageskarten"
+    ]
+  },
+  {
+    "club": "SV Wehen Wiesbaden",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "BRITA-Arena",
+    "ground_id_hint": {
+      "name": "BRITA-Arena",
+      "city": "Wiesbaden",
+      "id": "osm-way-201467283"
+    },
+    "ground_id": "osm-way-201467283",
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Stadion am Halberg",
+        "from": null,
+        "to": 2007,
+        "city": "Taunusstein",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brita-Arena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/Stadion_am_Halberg",
+      "https://svww.de/stadion",
+      "https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/kombitickets-veranstaltungstickets/sv-wehen-wiesbaden",
+      "https://www.rot-weiss-essen.de/2025/08/21/fanhinweise-zum-spiel-beim-sv-wehen-wiesbaden/"
+    ]
+  },
+  {
+    "club": "SSV Jahn Regensburg",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Jahnstadion Regensburg",
+    "ground_id_hint": {
+      "name": "Jahnstadion Regensburg",
+      "city": "Regensburg",
+      "id": "osm-way-365735150"
+    },
+    "ground_id": "osm-way-365735150",
+    "names": [
+      {
+        "name": "Continental Arena",
+        "from": 2015,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Jahnstadion (Prüfeninger Straße)",
+        "from": 1926,
+        "to": 2015,
+        "city": "Regensburg",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://www.ssv-jahn.de/fans/ticketing-stadion/jahnstadion-regensburg",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/Continental_Arena",
+      "https://en.wikipedia.org/wiki/Jahnstadion_Regensburg_(1926)",
+      "https://www.ssv-jahn.de/fans/ticketing-stadion/ticket-heimspielinfos/",
+      "https://www.svs1916.de/fileadmin/redakteurupload/profis/230711_Gaesteinfos_Jahnstadion_Regensburg.pdf"
+    ]
+  },
+  {
+    "club": "Fortuna Düsseldorf",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Merkur Spiel-Arena",
+    "ground_id_hint": {
+      "name": "Merkur Spiel-Arena",
+      "city": "Düsseldorf",
+      "id": "osm-way-24547706"
+    },
+    "ground_id": "osm-way-24547706",
+    "names": [
+      {
+        "name": "LTU arena",
+        "from": 2004,
+        "to": 2009,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Esprit arena",
+        "from": 2009,
+        "to": 2018,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Merkur Spiel-Arena",
+        "from": 2018,
+        "to": null,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Düsseldorf Arena",
+        "from": 2024,
+        "to": 2024,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Rheinstadion",
+        "from": null,
+        "to": 2002,
+        "city": "Düsseldorf",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null
+      }
+    ],
+    "sources": [
+      "https://www.f95.de/en/tickets/tages-und-dauerkarten/ticket-information/",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/Merkur_Spiel-Arena",
+      "https://en.wikipedia.org/wiki/Rheinstadion",
+      "https://www.f95.de/tickets/merkur-spiel-arena/anfahrt/"
+    ]
+  },
+  {
+    "club": "SC Preußen Münster",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "LVM-Preußenstadion",
+    "ground_id_hint": {
+      "name": "Preußenstadion",
+      "city": "Münster",
+      "id": "osm-relation-1360363"
+    },
+    "ground_id": "osm-relation-1360363",
+    "names": [
+      {
+        "name": "Preußenstadion",
+        "from": null,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "LVM-Preußenstadion",
+        "from": null,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.stadt-muenster.de/stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/Preu%C3%9Fenstadion",
+      "https://www.lvm-preussenstadion.de/",
+      "https://scpreussen-muenster.de/fans/gaeste/gaesteinfos/",
+      "https://scpreussen-muenster.de/news/8-700-stehplaetze-als-atmospaerisches-herzstueck-besonderheiten-des-neuen-stadions/",
+      "https://scpreussen-muenster.de/stadion/tickets/faq/",
+      "https://scpreussen-muenster.de/stadion/tickets/tageskarten/"
+    ]
+  },
+  {
+    "club": "SC Fortuna Köln",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Südstadion",
+    "ground_id_hint": {
+      "name": "Südstadion",
+      "city": "Köln",
+      "id": "osm-way-27816189"
+    },
+    "ground_id": "osm-way-27816189",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/S%C3%BCdstadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://www.alemannia-aachen.de/aktuelles/nachrichten/faninfos/Faninfos-zum-Spiel-bei-Fortuna-Koeln-21702h/",
+      "https://www.fortuna-koeln.de/club/suedstadion/",
+      "https://www.fortuna-koeln.de/club/suedstadion/anfahrtskarte-suedstadion/",
+      "https://www.fortuna-koeln.de/tickets/infos-fuer-gaeste-fans/"
+    ]
+  },
+  {
+    "club": "SG Sonnenhof Großaspach",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "WIRmachenDRUCK Arena",
+    "ground_id_hint": {
+      "name": "WIRmachenDRUCK Arena",
+      "city": "Aspach",
+      "id": "osm-way-372567612"
+    },
+    "ground_id": "osm-way-372567612",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/WIRmachenDRUCK_Arena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/VfB_Stuttgart_II"
+    ]
+  },
+  {
+    "club": "SV Meppen",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Hänsch-Arena",
+    "ground_id_hint": {
+      "name": "Hänsch-Arena",
+      "city": "Meppen",
+      "id": "osm-way-196582775"
+    },
+    "ground_id": "osm-way-196582775",
+    "names": [
+      {
+        "name": "Emslandstadion",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.svmeppen.de/stadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://en.wikipedia.org/wiki/H%C3%A4nsch-Arena",
+      "https://www.fch.de/news/faninformationen-fuer-das-auswaertsspiel-in-meppen-kopie.html"
+    ]
+  },
+  {
+    "club": "Würzburger Kickers",
+    "country": "DE",
+    "league": "3. Liga",
+    "current_name": "Akon Arena",
+    "ground_id_hint": {
+      "name": "AKON ARENA",
+      "city": "Würzburg",
+      "id": "osm-way-663167079"
+    },
+    "ground_id": "osm-way-663167079",
+    "names": [
+      {
+        "name": "Stadion am Dallenberg",
+        "from": 1967,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "flyeralarm Arena",
+        "from": null,
+        "to": null,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Akon Arena",
+        "from": null,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Akon_Arena",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_3._Liga",
+      "https://www.wuerzburger-kickers.de/de/verein/flyeralarm-arena",
+      "https://www.wuerzburger-kickers.de/de/verein/akon-arena"
+    ]
+  },
+  {
+    "club": "Kickers Emden",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Ostfriesland-Stadion",
+    "ground_id_hint": {
+      "name": "Ostfriesland-Stadion",
+      "city": "Emden",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27"
+    ]
+  },
+  {
+    "club": "Hannover 96 II",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Eilenriedestadion",
+    "ground_id_hint": {
+      "name": "Eilenriedestadion",
+      "city": "Hannover",
+      "id": "osm-way-179158024"
+    },
+    "ground_id": "osm-way-179158024",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "Werder Bremen II",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Weserstadion Platz 11",
+    "ground_id_hint": {
+      "name": "Platz 11",
+      "city": "Bremen",
+      "id": "osm-way-232421157"
+    },
+    "ground_id": "osm-way-232421157",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "SV Drochtersen/Assel",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Kehdinger Stadion",
+    "ground_id_hint": {
+      "name": "Kehdinger Stadion",
+      "city": "Drochtersen",
+      "id": "osm-way-1110584842"
+    },
+    "ground_id": "osm-way-1110584842",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "VfB Oldenburg",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Marschweg-Stadion",
+    "ground_id_hint": {
+      "name": "Marschweg-Stadion",
+      "city": "Oldenburg",
+      "id": "osm-relation-2903130"
+    },
+    "ground_id": "osm-relation-2903130",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marschweg-Stadion",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1",
+      "https://www.vfb-oldenburg.de/auswaertsinformationen",
+      "https://www.vfb-oldenburg.de/marschweg-stadion"
+    ]
+  },
+  {
+    "club": "SC Weiche Flensburg 08",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Manfred-Werner-Stadion",
+    "ground_id_hint": {
+      "name": "Manfred-Werner-Stadion",
+      "city": "Flensburg",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://weiche-liga.de/stadion/ueber-das-stadion/",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1",
+      "https://weiche-liga.de/stadion/gaesteinformation/"
+    ]
+  },
+  {
+    "club": "VfB Lübeck",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Stadion an der Lohmühle",
+    "ground_id_hint": {
+      "name": "Stadion Lohmühle",
+      "city": "Lübeck",
+      "id": "osm-way-656606219"
+    },
+    "ground_id": "osm-way-656606219",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1",
+      "https://vfb-luebeck.de/fussball/fans-community/gaeste-infos/",
+      "https://vfb-luebeck.de/fussball/fans-community/allgemeine-spieltagsinformationen/"
+    ]
+  },
+  {
+    "club": "Bremer SV",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Stadion am Panzenberg",
+    "ground_id_hint": {
+      "name": "Stadion am Panzenberg",
+      "city": "Bremen",
+      "id": "osm-way-231977701"
+    },
+    "ground_id": "osm-way-231977701",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "Hamburger SV II",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Wolfgang-Meyer-Sportanlage",
+    "ground_id_hint": {
+      "name": "Wolfgang-Meyer-Sportanlage",
+      "city": "Hamburg",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "Eintracht Norderstedt",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Edmund-Plambeck-Stadion",
+    "ground_id_hint": {
+      "name": "Edmund-Plambeck-Stadion",
+      "city": "Norderstedt",
+      "id": "osm-way-26790284"
+    },
+    "ground_id": "osm-way-26790284",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "FC St. Pauli II",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Stadion Hoheluft",
+    "ground_id_hint": {
+      "name": "Stadion Hoheluft",
+      "city": "Hamburg",
+      "id": "osm-way-23815941"
+    },
+    "ground_id": "osm-way-23815941",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "VfV Borussia 06 Hildesheim",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Friedrich-Ebert-Stadion",
+    "ground_id_hint": {
+      "name": "Friedrich-Ebert-Stadion",
+      "city": "Hildesheim",
+      "id": "osm-way-50096133"
+    },
+    "ground_id": "osm-way-50096133",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "SSV Jeddeloh II",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Haskamp Arena",
+    "ground_id_hint": {
+      "name": "Haskamp Arena",
+      "city": "Jeddeloh II",
+      "id": "osm-way-1121559196"
+    },
+    "ground_id": "osm-way-1121559196",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.ssv-regionalliga.de/",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27"
+    ]
+  },
+  {
+    "club": "1. FC Phönix Lübeck",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Stadion Buniamshof",
+    "ground_id_hint": {
+      "name": "Stadion Buniamshof",
+      "city": "Lübeck",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Stadion Flugplatz",
+        "from": null,
+        "to": null,
+        "city": "Lübeck",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/1._FC_Ph%C3%B6nix_L%C3%BCbeck",
+      "https://www.nordfv.de/news/regionalliga-nord-der-herren-2026-2027-1"
+    ]
+  },
+  {
+    "club": "Atlas Delmenhorst",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Stadion an der Düsternortstraße",
+    "ground_id_hint": {
+      "name": "Stadion an der Düsternortstraße",
+      "city": "Delmenhorst",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27"
+    ]
+  },
+  {
+    "club": "Eimsbütteler TV",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "Sportpark Eimsbüttel",
+    "ground_id_hint": {
+      "name": "Sportpark Eimsbüttel",
+      "city": "Hamburg",
+      "id": "osm-way-75900927"
+    },
+    "ground_id": "osm-way-75900927",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27"
+    ]
+  },
+  {
+    "club": "SV Todesfelde",
+    "country": "DE",
+    "league": "Regionalliga Nord",
+    "current_name": "JODA-Sportpark",
+    "ground_id_hint": {
+      "name": "JODA-Sportpark",
+      "city": "Todesfelde",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2026/27"
+    ]
+  },
+  {
+    "club": "1. FC Lokomotive Leipzig",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Bruno-Plache-Stadion",
+    "ground_id_hint": {
+      "name": "Bruno-Plache-Stadion",
+      "city": "Leipzig",
+      "id": "osm-way-32995500"
+    },
+    "ground_id": "osm-way-32995500",
+    "names": [
+      {
+        "name": "Probstheidaer Stadion",
+        "from": 1922,
+        "to": 1949,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Bruno-Plache-Stadion",
+        "from": 1949,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://lok-leipzig.com/verein/bruno",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://en.wikipedia.org/wiki/Bruno-Plache-Stadion",
+      "https://www.nofv-online.de/index.php/aktuelles-leser/id-1-fc-lok-leipzig-kroent-sich-zum-meister-der-regionalliga-nordost-3292.html"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "BSG Chemie Leipzig",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Alfred-Kunze-Sportpark",
+    "ground_id_hint": {
+      "name": "Alfred-Kunze-Sportpark",
+      "city": "Leipzig",
+      "id": "osm-way-20313355"
+    },
+    "ground_id": "osm-way-20313355",
+    "names": [
+      {
+        "name": "Georg-Schwarz-Sportpark",
+        "from": 1950,
+        "to": 1992,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.chemie-leipzig.de/alfred-kunze-sportpark/unser-aks/daten-fakten/",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://en.wikipedia.org/wiki/Alfred-Kunze-Sportpark"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "FC Carl Zeiss Jena",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Ernst-Abbe-Sportfeld",
+    "ground_id_hint": {
+      "name": "ad hoc arena",
+      "city": "Jena",
+      "id": "osm-way-1523965775"
+    },
+    "ground_id": "osm-way-1523965775",
+    "names": [
+      {
+        "name": "ad hoc Arena im Ernst-Abbe-Sportfeld",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ernst-Abbe-Sportfeld",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://www.fcc-supporters.org/wiki/Ernst-Abbe-Sportfeld"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "BFC Dynamo",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Sportforum Hohenschönhausen",
+    "ground_id_hint": {
+      "name": "Stadion im Sportforum",
+      "city": "Fennpfuhl",
+      "id": "osm-way-43942433"
+    },
+    "ground_id": "osm-way-43942433",
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Friedrich-Ludwig-Jahn-Sportpark",
+        "from": null,
+        "to": null,
+        "city": "Berlin",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "SV Babelsberg 03",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Karl-Liebknecht-Stadion",
+    "ground_id_hint": {
+      "name": "Karl-Liebknecht-Stadion",
+      "city": "Potsdam",
+      "id": "osm-relation-20424231"
+    },
+    "ground_id": "osm-relation-20424231",
+    "names": [
+      {
+        "name": "KarLi",
+        "from": null,
+        "to": null,
+        "kind": "nickname",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karl-Liebknecht-Stadion",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://www.babelsberg03.de/verein-stadion/stadion/infos-fuer-gaestefans",
+      "https://www.babelsberg03.de/verein-stadion/stadion"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Hallescher FC",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Leuna-Chemie-Stadion",
+    "ground_id_hint": {
+      "name": "Leuna-Chemie-Stadion",
+      "city": "Halle (Saale)",
+      "id": "osm-way-130575966"
+    },
+    "ground_id": "osm-way-130575966",
+    "names": [
+      {
+        "name": "Erdgas Sportpark",
+        "from": 2011,
+        "to": 2021,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Leuna-Chemie-Stadion",
+        "from": 2021,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Kurt-Wabbel-Stadion",
+        "from": null,
+        "to": null,
+        "city": "Halle (Saale)",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "FSV Zwickau",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Stadion Zwickau",
+    "ground_id_hint": {
+      "name": "GGZ-Arena",
+      "city": "Zwickau",
+      "id": "osm-way-1177356445"
+    },
+    "ground_id": "osm-way-1177356445",
+    "names": [
+      {
+        "name": "GGZ-Arena",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Westsachsenstadion",
+        "from": null,
+        "to": 2010,
+        "city": "Zwickau",
+        "lat": 50.69711,
+        "lon": 12.4855,
+        "status": "standing",
+        "ground_id": "osm-way-103262045"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stadion_Zwickau",
+      "https://en.wikipedia.org/wiki/Westsachsenstadion",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "FC Erzgebirge Aue",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Erzgebirgsstadion",
+    "ground_id_hint": {
+      "name": "Erzgebirgsstadion",
+      "city": "Aue-Bad Schlema",
+      "id": "osm-way-440664813"
+    },
+    "ground_id": "osm-way-440664813",
+    "names": [
+      {
+        "name": "Sparkassen-Erzgebirgsstadion",
+        "from": null,
+        "to": null,
+        "kind": "sponsor"
+      },
+      {
+        "name": "eins Erzgebirgsstadion",
+        "from": null,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eins_Erzgebirgsstadion",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Regionalliga",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://www.fc-erzgebirge.de/verein/stadion/erzgebirgsstadion"
+    ]
+  },
+  {
+    "club": "Chemnitzer FC",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Stadion an der Gellertstraße",
+    "ground_id_hint": {
+      "name": "Stadion – An der Gellertstraße",
+      "city": "Chemnitz",
+      "id": "osm-way-653342937"
+    },
+    "ground_id": "osm-way-653342937",
+    "names": [
+      {
+        "name": "eins-Stadion – An der Gellertstraße",
+        "from": 2018,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.chemnitz.de/en/life-in-chemnitz/sports/sports-facilities/stadium-chemnitz",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://en.wikipedia.org/wiki/Stadion_an_der_Gellertstra%C3%9Fe"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "FC Rot-Weiß Erfurt",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Steigerwaldstadion",
+    "ground_id_hint": {
+      "name": "Steigerwaldstadion",
+      "city": "Erfurt",
+      "id": "osm-way-37437787"
+    },
+    "ground_id": "osm-way-37437787",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Steigerwaldstadion",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://m.rot-weiss-erfurt.de/Tickets.html"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Greifswalder FC",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Volksstadion",
+    "ground_id_hint": {
+      "name": "Volksstadion",
+      "city": "Greifswald",
+      "id": "osm-way-65043195"
+    },
+    "ground_id": "osm-way-65043195",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Hertha BSC II",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Stadion auf dem Wurfplatz",
+    "ground_id_hint": {
+      "name": "Stadion auf dem Wurfplatz",
+      "city": "Westend",
+      "id": "osm-way-24296069"
+    },
+    "ground_id": "osm-way-24296069",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2025/26"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "FSV 63 Luckenwalde",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Werner-Seelenbinder-Stadion",
+    "ground_id_hint": {
+      "name": "Werner-Seelenbinder-Stadion",
+      "city": "Luckenwalde",
+      "id": "osm-way-51780507"
+    },
+    "ground_id": "osm-way-51780507",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Regionalliga_Nordost",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2025/26",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "BFC Preussen",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Preußenstadion",
+    "ground_id_hint": {
+      "name": "Preussenstadion",
+      "city": "Lankwitz",
+      "id": "osm-relation-20335480"
+    },
+    "ground_id": "osm-relation-20335480",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.openstreetmap.org/relation/20335480"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "SV Tasmania Berlin",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Werner-Seelenbinder-Sportpark",
+    "ground_id_hint": {
+      "name": "Werner-Seelenbinder-Sportpark",
+      "city": "Berlin",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/SV_Tasmania_Berlin",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Regionalliga",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nordost_2026/27"
+    ]
+  },
+  {
+    "club": "RSV Eintracht 1949",
+    "country": "DE",
+    "league": "Regionalliga Nordost",
+    "current_name": "Preußenstadion",
+    "ground_id_hint": {
+      "name": "Preussenstadion",
+      "city": "Lankwitz",
+      "id": "osm-relation-20335480"
+    },
+    "ground_id": "osm-relation-20335480",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.nofv-online.de/index.php/aktuelles-leser/stahnsdorfs-sprung-ins-kalte-wasser.html",
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Regionalliga",
+      "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+    ]
+  },
+  {
+    "club": "Rot-Weiß Oberhausen",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Stadion Niederrhein",
+    "ground_id_hint": {
+      "name": "Stadion Niederrhein",
+      "city": "Oberhausen",
+      "id": "osm-way-24004753"
+    },
+    "ground_id": "osm-way-24004753",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.rwo1904.de/stadion/stadion-niederrhein",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest",
+      "https://www.rwo1904.de/stadion/anreise",
+      "https://www.rwo1904.de/stadion/tickets/tageskarten"
+    ]
+  },
+  {
+    "club": "Bonner SC",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Sportpark Nord",
+    "ground_id_hint": {
+      "name": "Sportpark Nord",
+      "city": "Bonn",
+      "id": "osm-way-5107070"
+    },
+    "ground_id": "osm-way-5107070",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bonn.de/bonn-erleben/aktiv-und-unterwegs/sportstaetten.php?loc=en",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "1. FC Bocholt",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Stadion am Hünting",
+    "ground_id_hint": {
+      "name": "Stadion am Hünting",
+      "city": "Bocholt",
+      "id": "osm-way-104981785"
+    },
+    "ground_id": "osm-way-104981785",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Stadion_am_H%C3%BCnting",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "Sportfreunde Siegen",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Leimbachstadion",
+    "ground_id_hint": {
+      "name": "Leimbachstadion",
+      "city": "Siegen",
+      "id": "osm-relation-2020695"
+    },
+    "ground_id": "osm-relation-2020695",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leimbachstadion",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "SC Wiedenbrück",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Jahnstadion",
+    "ground_id_hint": {
+      "name": "Jahnstadion",
+      "city": "Rheda-Wiedenbrück",
+      "id": "osm-way-34088864"
+    },
+    "ground_id": "osm-way-34088864",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Jahnstadion_(Rheda-Wiedenbr%C3%BCck)",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "Sportfreunde Lotte",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Stadion am Lotter Kreuz",
+    "ground_id_hint": {
+      "name": "Stadion am Lotter Kreuz",
+      "city": "Lotte",
+      "id": "osm-way-560328555"
+    },
+    "ground_id": "osm-way-560328555",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stadion_am_Lotter_Kreuz",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "FC Gütersloh",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Heidewaldstadion",
+    "ground_id_hint": {
+      "name": "Ohlendorf Stadion im Heidewald",
+      "city": "Gütersloh",
+      "id": "osm-way-26927517"
+    },
+    "ground_id": "osm-way-26927517",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.fcguetersloh.de/der-fcg/das-stadion",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "SV Rödinghausen",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Häcker Wiehenstadion",
+    "ground_id_hint": {
+      "name": "Häcker-Wiehenstadion",
+      "city": "Rödinghausen",
+      "id": "osm-way-909365791"
+    },
+    "ground_id": "osm-way-909365791",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.svroedinghausen.de/stadion/haecker-wiehenstadion",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "Borussia Dortmund II",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Stadion Rote Erde",
+    "ground_id_hint": {
+      "name": "Stadion Rote Erde",
+      "city": "Dortmund",
+      "id": "osm-way-17236684"
+    },
+    "ground_id": "osm-way-17236684",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/7/13/U23-startet-in-Bochum-in-die-neue-Regionalliga-Saison.html",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "FC Schalke 04 II",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Parkstadion",
+    "ground_id_hint": {
+      "name": "Parkstadion",
+      "city": "Gelsenkirchen",
+      "id": "osm-way-770742075"
+    },
+    "ground_id": "osm-way-770742075",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://schalke04.de/knappenschmiede/regionalliga-west/u23-spielplan-vorgestellt-2627/"
+    ]
+  },
+  {
+    "club": "Borussia Mönchengladbach II",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Grenzlandstadion",
+    "ground_id_hint": {
+      "name": "Grenzlandstadion",
+      "city": "Mönchengladbach",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "1. FC Köln II",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Franz-Kremer-Stadion",
+    "ground_id_hint": {
+      "name": "Franz-Kremer-Stadion",
+      "city": "Köln",
+      "id": "osm-way-49930449"
+    },
+    "ground_id": "osm-way-49930449",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "VfL Bochum II",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Stadion am Schloss Strünkede",
+    "ground_id_hint": {
+      "name": "Stadion am Schloss Strünkede",
+      "city": "Herne",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "SC Paderborn 07 II",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Home Deluxe Arena",
+    "ground_id_hint": {
+      "name": "Home Deluxe Arena",
+      "city": "Paderborn",
+      "id": "osm-way-175029195"
+    },
+    "ground_id": "osm-way-175029195",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Home_Deluxe_Arena",
+      "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_West_2026/27"
+    ]
+  },
+  {
+    "club": "SG Wattenscheid 09",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Lohrheidestadion",
+    "ground_id_hint": {
+      "name": "Lohrheidestadion",
+      "city": "Bochum-Wattenscheid",
+      "id": "osm-way-663054792"
+    },
+    "ground_id": "osm-way-663054792",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/SG_Wattenscheid_09",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "Westfalia Rhynern",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Helmut-Voss-Arena im Papenloh",
+    "ground_id_hint": {
+      "name": "Helmut-Voss-Arena im Papenloh",
+      "city": "Hamm",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://westfaliarhynern.de/index.php/stadion",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "SV Bergisch Gladbach 09",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "BELKAW ARENA",
+    "ground_id_hint": {
+      "name": "BELKAW ARENA",
+      "city": "Bergisch Gladbach",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bergischgladbach09.de/2026/09/23/aufsteigerduell-in-der-belkaw-arena-sv09-empfaengt-westfalia-rhynern/",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "VfB 03 Hilden",
+    "country": "DE",
+    "league": "Regionalliga West",
+    "current_name": "Sportanlage Hoffeldstraße",
+    "ground_id_hint": {
+      "name": "Sportanlage Hoffeldstraße",
+      "city": "Hilden",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.vfb-hilden.de/stadion",
+      "https://wdfv.de/der-wdfv/aktuelles/1076/teilnehmerfeld-der-regionalliga-west-202627-steht-fest"
+    ]
+  },
+  {
+    "club": "Stuttgarter Kickers",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "GAZi-Stadion auf der Waldau",
+    "ground_id_hint": {
+      "name": "GAZi-Stadion auf der Waldau",
+      "city": "Stuttgart",
+      "id": "osm-way-14169211"
+    },
+    "ground_id": "osm-way-14169211",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.stuttgarter-kickers.de/verein/wir-ueber-uns/gazi-stadion-auf-der-waldau",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f",
+      "https://www.stuttgarter-kickers.de/fans/auswaertsspiele/infos-fuer-gaestefans"
+    ]
+  },
+  {
+    "club": "SSV Ulm 1846",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Donaustadion",
+    "ground_id_hint": {
+      "name": "Donaustadion",
+      "city": "Ulm",
+      "id": "osm-way-614515727"
+    },
+    "ground_id": "osm-way-614515727",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/SSV_Ulm_1846",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f",
+      "https://www.ssvulm1846-fussball.de/fans/dauerkarte-2026-27-die-verkaufsphasen",
+      "https://www.ssvulm1846-fussball.de/fans/ulmofc-faninfos"
+    ]
+  },
+  {
+    "club": "SV Sandhausen",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Stadion am Hardtwald",
+    "ground_id_hint": {
+      "name": "GP Stadion am Hardtwald",
+      "city": "Sandhausen",
+      "id": "osm-way-223139712"
+    },
+    "ground_id": "osm-way-223139712",
+    "names": [
+      {
+        "name": "Hardtwaldstadion",
+        "from": null,
+        "to": 2017,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "BWT-Stadion am Hardtwald",
+        "from": 2017,
+        "to": 2023,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.svs1916.de/wir/stadion-am-hardtwald.html",
+      "https://en.wikipedia.org/wiki/Hardtwaldstadion"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "Kickers Offenbach",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Stadion am Bieberer Berg",
+    "ground_id_hint": {
+      "name": "PLUTOS Stadion am Bieberer Berg",
+      "city": "Offenbach am Main",
+      "id": "osm-way-26656405"
+    },
+    "ground_id": "osm-way-26656405",
+    "names": [
+      {
+        "name": "Sparda-Bank-Hessen-Stadion",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "Bieberer Berg",
+        "from": null,
+        "to": null,
+        "kind": "nickname"
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Stadion am Bieberer Berg (old)",
+        "from": null,
+        "to": null,
+        "city": "Offenbach am Main",
+        "lat": null,
+        "lon": null,
+        "status": "demolished",
+        "ground_id": null,
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stadion_am_Bieberer_Berg_(2012)",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f",
+      "https://en.wikipedia.org/wiki/Kickers_Offenbach",
+      "https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/kombitickets-veranstaltungstickets/kickers-offenbach",
+      "https://www.sv98.de/auswaerts-infos-fuer-die-auswaertsfahrer-nach-offenbach/",
+      "https://sg-barockstadt.de/spieltagsinformationen-kickers-offenbach/"
+    ]
+  },
+  {
+    "club": "KSV Hessen Kassel",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Auestadion",
+    "ground_id_hint": {
+      "name": "Auestadion",
+      "city": "Kassel",
+      "id": "osm-relation-14312319"
+    },
+    "ground_id": "osm-relation-14312319",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Auestadion",
+      "https://www.ksvhessen.de/tickets/informationen-fuer-gaestefans/"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "FC 08 Homburg",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Waldstadion",
+    "ground_id_hint": {
+      "name": "Waldstadion Homburg",
+      "city": "Homburg",
+      "id": "osm-way-438209778"
+    },
+    "ground_id": "osm-way-438209778",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Waldstadion_Homburg",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f",
+      "https://www.fc08homburg.de/stadion/auswaertsspiele/",
+      "https://www.fc08homburg.de/stadion/ticketing-allgemeine-infos/"
+    ]
+  },
+  {
+    "club": "Eintracht Trier",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Moselstadion",
+    "ground_id_hint": {
+      "name": "Moselstadion",
+      "city": "Trier",
+      "id": "osm-node-267551453"
+    },
+    "ground_id": "osm-node-267551453",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://eintracht-trier.com/stadion/",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f",
+      "https://eintracht-trier.com/tickets/",
+      "https://www.fsv-frankfurt.de/wp-content/uploads/2026/03/2526_FSVFrankfurt_Auswaertsinfos_EintrachtTrier.pdf",
+      "https://eintracht-trier.com/2025/08/08/neue-regelung-an-den-tageskassen-im-moselstadion/"
+    ]
+  },
+  {
+    "club": "SGV Heilbronn-Freiberg",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Frankenstadion",
+    "ground_id_hint": {
+      "name": "Frankenstadion Heilbronn",
+      "city": "Heilbronn",
+      "id": "osm-way-130333403"
+    },
+    "ground_id": "osm-way-130333403",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.sgv-freiberg-fussball.de/nachrichten/team-news/23634/sgv-ladt-zur-heimspiel-premiere-im-frankenstadion-ein",
+      "https://www.heilbronn.de/kommunikation/pressemitteilungen/details/artikel/frankenstadion-wird-fuer-profi-fussball-nutzung-ausgebaut.html"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "FC-Astoria Walldorf",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Stadion im Dietmar-Hopp-Sportpark",
+    "ground_id_hint": {
+      "name": "Stadion im Dietmar-Hopp-Sportpark",
+      "city": "Walldorf",
+      "id": "osm-way-159034730"
+    },
+    "ground_id": "osm-way-159034730",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://fcastoria.de/der-fca-spielt-ab-jetzt-im-dietmar-hopp-sportpark/",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f"
+    ]
+  },
+  {
+    "club": "TSV Steinbach Haiger",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "SIBRE-Sportzentrum Haarwasen",
+    "ground_id_hint": {
+      "name": "SIBRE-Sportzentrum Haarwasen",
+      "city": "Haiger",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://tsv-steinbach.de/fans/faninformationen/",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f"
+    ]
+  },
+  {
+    "club": "FSV Frankfurt",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Stadion am Bornheimer Hang",
+    "ground_id_hint": {
+      "name": "Stadion am Bornheimer Hang",
+      "city": "Frankfurt am Main",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [
+      {
+        "name": "PSD Bank Arena",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      },
+      {
+        "name": "BBBank Arena am Bornheimer Hang",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://frankfurt.de/themen/sport/sportorte/outdoor/stadien/stadion-am-bornheimer-hang",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f",
+      "https://en.wikipedia.org/wiki/PSD_Bank_Arena",
+      "https://www.fsv-frankfurt.de/profis/bbbank-arena/"
+    ]
+  },
+  {
+    "club": "SG Barockstadt Fulda-Lehnerz",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Stadion der Stadt Fulda im Sportpark Johannisau",
+    "ground_id_hint": {
+      "name": "Stadion der Stadt Fulda",
+      "city": "Fulda",
+      "id": "osm-way-24929913"
+    },
+    "ground_id": "osm-way-24929913",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Sportpark_Johannisau"
+    ],
+    "unverified": true
+  },
+  {
+    "club": "SC Freiburg II",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Dreisamstadion",
+    "ground_id_hint": {
+      "name": "Dreisamstadion",
+      "city": "Freiburg im Breisgau",
+      "id": "osm-relation-1614762"
+    },
+    "ground_id": "osm-relation-1614762",
+    "names": [
+      {
+        "name": "Dreisamstadion",
+        "from": 1953,
+        "to": 2004,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dreisamstadion",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f",
+      "https://www.scfreiburg.com/en/stadium/dreisamstadion/"
+    ]
+  },
+  {
+    "club": "1. FSV Mainz 05 II",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Stadion am Bruchweg",
+    "ground_id_hint": {
+      "name": "Bruchwegstadion",
+      "city": "Mainz",
+      "id": "osm-way-1374173989"
+    },
+    "ground_id": "osm-way-1374173989",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f"
+    ]
+  },
+  {
+    "club": "Eintracht Frankfurt II",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Stadion am Brentanobad",
+    "ground_id_hint": {
+      "name": "Stadion am Brentanobad",
+      "city": "Frankfurt am Main",
+      "id": "osm-way-663164998"
+    },
+    "ground_id": "osm-way-663164998",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f"
+    ]
+  },
+  {
+    "club": "1. FC Kaiserslautern II",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Sportpark Rote Teufel",
+    "ground_id_hint": {
+      "name": "Sportpark Rote Teufel",
+      "city": "Mehlingen",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/1._FC_Kaiserslautern_II",
+      "https://fck.de/blog/regionalliga-suedwest-veroeffentlicht-rahmenspielplan-der-saison-2026-27/"
+    ]
+  },
+  {
+    "club": "VfR Aalen",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Ostalb Arena",
+    "ground_id_hint": {
+      "name": "Ostalb Arena",
+      "city": "Aalen",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [
+      {
+        "name": "Städtisches Waldstadion",
+        "from": null,
+        "to": null,
+        "kind": "official"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/St%C3%A4dtisches_Waldstadion",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f"
+    ]
+  },
+  {
+    "club": "VfR Mannheim",
+    "country": "DE",
+    "league": "Regionalliga Südwest",
+    "current_name": "Rhein-Neckar-Stadion",
+    "ground_id_hint": {
+      "name": "Rhein-Neckar-Stadion",
+      "city": "Mannheim",
+      "id": "osm-way-439077870"
+    },
+    "ground_id": "osm-way-439077870",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://vfr-mannheim.de/rhein-neckar-stadion/",
+      "https://www.regionalliga-suedwest.de/.cm4all/uproc.php/0/Rahmenspielplan_RLSW_26-27.pdf?cdp=a&_=19f50e4946f"
+    ]
+  },
+  {
+    "club": "TSV 1860 München",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Städtisches Stadion an der Grünwalder Straße",
+    "ground_id_hint": {
+      "name": "Städtisches Stadion an der Grünwalder Straße",
+      "city": "München",
+      "id": "osm-way-23463412"
+    },
+    "ground_id": "osm-way-23463412",
+    "names": [
+      {
+        "name": "Sportplatz des Turnvereins München von 1860 an der Grünwalder Straße",
+        "from": 1911,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Grünwalder Stadion",
+        "from": null,
+        "to": null,
+        "kind": "nickname"
+      },
+      {
+        "name": "Sechzger-Stadion",
+        "from": null,
+        "to": null,
+        "kind": "nickname",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [
+      {
+        "name": "Olympiastadion",
+        "from": 1995,
+        "to": 2005,
+        "city": "München",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Olympiastadion",
+        "from": 1972,
+        "to": 1982,
+        "city": "München",
+        "lat": null,
+        "lon": null,
+        "status": "standing",
+        "ground_id": null,
+        "unverified": true
+      },
+      {
+        "name": "Allianz Arena",
+        "from": 2005,
+        "to": 2017,
+        "city": "München",
+        "lat": 48.21879,
+        "lon": 11.6247,
+        "status": "standing",
+        "ground_id": "osm-relation-18413487"
+      }
+    ],
+    "sources": [
+      "https://de.wikipedia.org/wiki/St%C3%A4dtisches_Stadion_an_der_Gr%C3%BCnwalder_Stra%C3%9Fe",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://en.wikipedia.org/wiki/Gr%C3%BCnwalder_Stadion",
+      "https://en.wikipedia.org/wiki/TSV_1860_Munich",
+      "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)",
+      "https://www.bfv.de/mspw/regionalliga-bayern/2026-27/tsv-1860-muenchen/tsv-1860-munchen-spielt-weiterhin-im-grunwalder-stadion",
+      "https://www.mvv-muenchen.de/mvv-und-service/presse/pressemitteilungen/news/detail/news/freie-fahrt-fuer-loewen-fans/index.html",
+      "https://www.vfl.de/faninfos-muenchen/",
+      "https://www.tsv1860.de/de/Aktuelles_News/8357.htm"
+    ]
+  },
+  {
+    "club": "FC Bayern München II",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Städtisches Stadion an der Grünwalder Straße",
+    "ground_id_hint": {
+      "name": "Städtisches Stadion an der Grünwalder Straße",
+      "city": "München",
+      "id": "osm-way-23463412"
+    },
+    "ground_id": "osm-way-23463412",
+    "names": [
+      {
+        "name": "Sportplatz des Turnvereins München von 1860 an der Grünwalder Straße",
+        "from": 1911,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      },
+      {
+        "name": "Grünwalder Stadion",
+        "from": null,
+        "to": null,
+        "kind": "nickname"
+      },
+      {
+        "name": "Sechzger-Stadion",
+        "from": null,
+        "to": null,
+        "kind": "nickname",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://de.wikipedia.org/wiki/St%C3%A4dtisches_Stadion_an_der_Gr%C3%BCnwalder_Stra%C3%9Fe",
+      "https://en.wikipedia.org/wiki/Gr%C3%BCnwalder_Stadion"
+    ]
+  },
+  {
+    "club": "SpVgg Unterhaching",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Uhlsport Park",
+    "ground_id_hint": {
+      "name": "uhlsport Park",
+      "city": "Unterhaching",
+      "id": "osm-way-181862852"
+    },
+    "ground_id": "osm-way-181862852",
+    "names": [
+      {
+        "name": "Sportpark Unterhaching",
+        "from": 1992,
+        "to": 2003,
+        "kind": "official"
+      },
+      {
+        "name": "Generali Sportpark",
+        "from": 2003,
+        "to": 2011,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Sportpark Unterhaching",
+        "from": 2011,
+        "to": 2013,
+        "kind": "official"
+      },
+      {
+        "name": "Alpenbauer Sportpark",
+        "from": 2013,
+        "to": 2023,
+        "kind": "sponsor"
+      },
+      {
+        "name": "Uhlsport Park",
+        "from": 2023,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sportpark_Unterhaching",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://www.spvggunterhaching.de/anfahrt/",
+      "https://www.spvggunterhaching.de/service/"
+    ]
+  },
+  {
+    "club": "FC Schweinfurt 05",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Sachs-Stadion",
+    "ground_id_hint": {
+      "name": "Sachs-Stadion",
+      "city": "Schweinfurt",
+      "id": "osm-way-23646182"
+    },
+    "ground_id": "osm-way-23646182",
+    "names": [
+      {
+        "name": "Willy-Sachs-Stadion",
+        "from": 1936,
+        "to": 2021,
+        "kind": "official"
+      },
+      {
+        "name": "Sachs-Stadion",
+        "from": 2021,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "Riedel Bau Arena im Sachs-Stadion",
+        "from": null,
+        "to": null,
+        "kind": "sponsor",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sachs-Stadion",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://www.fcschweinfurt1905.de/stadion/"
+    ]
+  },
+  {
+    "club": "SV Wacker Burghausen",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "flatbuy-Stadion an der Liebigstraße",
+    "ground_id_hint": {
+      "name": "Wacker Arena",
+      "city": "Burghausen",
+      "id": "osm-way-26954909"
+    },
+    "ground_id": "osm-way-26954909",
+    "names": [
+      {
+        "name": "Stadion an der Liebigstraße",
+        "from": 1952,
+        "to": 2002,
+        "kind": "official"
+      },
+      {
+        "name": "Wacker-Arena",
+        "from": 2002,
+        "to": 2025,
+        "kind": "sponsor"
+      },
+      {
+        "name": "flatbuy-Stadion an der Liebigstraße",
+        "from": 2025,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.wacker1930.de/sv-wacker-burghausen-und-flatbuy-praesentieren-neuen-stadionnamen/",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://www.bfv.de/mspw/regionalliga-bayern/2025-26/sv-wacker-burghausen/sv-wacker-burghausen-neuer-namensgeber-fur-spielstatte"
+    ]
+  },
+  {
+    "club": "SpVgg Bayreuth",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Hans-Walter-Wild-Stadion",
+    "ground_id_hint": {
+      "name": "Hans-Walter-Wild-Stadion",
+      "city": "Bayreuth",
+      "id": "osm-way-439206373"
+    },
+    "ground_id": "osm-way-439206373",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hans-Walter-Wild-Stadion",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://www.spvgg-bayreuth.de/heimspiel/stadion/",
+      "https://www.vfl.de/fi-bayreuth/"
+    ]
+  },
+  {
+    "club": "FC Memmingen",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Memminger Arena",
+    "ground_id_hint": {
+      "name": "Arena Memmingen",
+      "city": "Memmingen",
+      "id": "osm-way-244601560"
+    },
+    "ground_id": "osm-way-244601560",
+    "names": [
+      {
+        "name": "Stadion an der Bodenseestraße",
+        "from": null,
+        "to": null,
+        "kind": "official"
+      },
+      {
+        "name": "e-con ArenaPark",
+        "from": 2022,
+        "to": null,
+        "kind": "sponsor"
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Memminger_Arena",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://www.fc-memmingen.de/zuschauerinformationen/"
+    ]
+  },
+  {
+    "club": "1. FC Nürnberg II",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Sportpark Valznerweiher (Max-Morlock-Platz)",
+    "ground_id_hint": {
+      "name": "Max-Morlock-Platz",
+      "city": "Nürnberg",
+      "id": "osm-way-47073829"
+    },
+    "ground_id": "osm-way-47073829",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bfv.de/mannschaften/1-fc-nuernberg-ii/011MICULV8000000VTVG0001VTR8C1K7",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "SpVgg Greuther Fürth II",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Charly-Mai-Sportanlage",
+    "ground_id_hint": {
+      "name": "Charly-Mai-Sportfeld",
+      "city": "Fürth",
+      "id": "osm-way-88893492"
+    },
+    "ground_id": "osm-way-88893492",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://datencenter.dfb.de/competitions/regionalliga-bayern/seasons/2026-2027/teams/spvgg-greuther-fuerth-ii",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "FC Augsburg II",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Rosenaustadion",
+    "ground_id_hint": {
+      "name": "Rosenaustadion",
+      "city": "Augsburg",
+      "id": "osm-way-26039742"
+    },
+    "ground_id": "osm-way-26039742",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.fcaugsburg.de/page/nachwuchs-spielorte-113",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "TSV Schwaben Augsburg",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Rosenaustadion",
+    "ground_id_hint": {
+      "name": "Rosenaustadion",
+      "city": "Augsburg",
+      "id": "osm-way-26039742"
+    },
+    "ground_id": "osm-way-26039742",
+    "names": [],
+    "earlier_grounds": [
+      {
+        "name": "Ernst-Lehner-Stadion",
+        "from": 1996,
+        "to": 2024,
+        "city": "Augsburg",
+        "lat": 48.34339,
+        "lon": 10.90901,
+        "status": "standing",
+        "ground_id": "osm-way-56077669",
+        "unverified": true
+      }
+    ],
+    "sources": [
+      "https://www.dieschwabenritter.de/verein/rosenaustadion",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://en.wikipedia.org/wiki/TSV_Schwaben_Augsburg"
+    ]
+  },
+  {
+    "club": "FV Illertissen",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Vöhlinstadion",
+    "ground_id_hint": {
+      "name": "Vöhlinstadion",
+      "city": "Illertissen",
+      "id": "osm-way-1301973503"
+    },
+    "ground_id": "osm-way-1301973503",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.fvi1921.de/verein/voehlinstadion-2025-05-13",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "DJK Vilzing",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Manfred-Zollner-Stadion",
+    "ground_id_hint": {
+      "name": "Manfred Zollner Stadion",
+      "city": "Cham",
+      "id": "osm-node-13043406139"
+    },
+    "ground_id": "osm-node-13043406139",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/DJK_Vilzing",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "TSV Aubstadt",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "NGN-Arena",
+    "ground_id_hint": {
+      "name": "NGN-Arena",
+      "city": "Aubstadt",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "VfB Eichstätt",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Hirsch-Sportpark",
+    "ground_id_hint": {
+      "name": "Hirsch Sportpark - Stadion",
+      "city": "Eichstätt",
+      "id": "osm-way-652930200"
+    },
+    "ground_id": "osm-way-652930200",
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "SpVgg Ansbach 09",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Xaver-Bertsch-Sportpark",
+    "ground_id_hint": {
+      "name": "Xaver-Bertsch-Sportpark",
+      "city": "Ansbach",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.spvgg-ansbach.de/stadion/infos-zum-stadion/",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "TSV Buchbach",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "SMR-Arena",
+    "ground_id_hint": {
+      "name": "SMR-Arena",
+      "city": "Buchbach",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.tsv-buchbach.de/fussball/smr-arena/",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
+  },
+  {
+    "club": "SC Eltersdorf",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Elsner-Sportpark",
+    "ground_id_hint": {
+      "name": "SC Eltersdorf A-Platz",
+      "city": "Erlangen",
+      "id": "osm-way-200183506"
+    },
+    "ground_id": "osm-way-200183506",
+    "names": [
+      {
+        "name": "Sportanlage Langenau",
+        "from": null,
+        "to": null,
+        "kind": "official",
+        "unverified": true
+      }
+    ],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bfv.de/mspw/regionalliga-bayern/2021-22/sc-eltersdorf/sc-eltersdorf-mehr-komfort-im-elsner-sportpark",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27",
+      "https://en.wikipedia.org/wiki/SC_Eltersdorf"
+    ]
+  },
+  {
+    "club": "TSV Landsberg",
+    "country": "DE",
+    "league": "Regionalliga Bayern",
+    "current_name": "Sportzentrum Landsberg",
+    "ground_id_hint": {
+      "name": "Sportzentrum Landsberg",
+      "city": "Landsberg am Lech",
+      "id": null
+    },
+    "ground_id": null,
+    "names": [],
+    "earlier_grounds": [],
+    "sources": [
+      "https://www.bfv.de/mspw/regionalliga-bayern/2026-27/tsv-1882-landsberg/tsv-1882-landsberg-ticket-kombi-gegen-tsv-1860-munchen",
+      "https://www.bfv.de/news/regionalliga-bayern/2026/07/rahmenspielplan-regionalliga-bayern-2026-27"
+    ]
   }
 ]
